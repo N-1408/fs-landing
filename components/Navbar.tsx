@@ -34,11 +34,12 @@ export default function Navbar() {
     const current = LANGS.find((l) => l.code === locale) || LANGS[1]; // default ru
 
     const NAV_LINKS = [
-        { href: '#problem', label: t('problem') },
-        { href: '#solution', label: t('solution') },
+        { href: '#problem', label: t('overview') },
         { href: '#compare', label: t('compare') },
         { href: '#mvp', label: t('app') },
         { href: '#gallery', label: t('gallery') },
+        { href: '#roadmap', label: t('roadmap') },
+        { href: '#team', label: t('team') },
     ];
 
     return (
@@ -149,9 +150,8 @@ export default function Navbar() {
                             ))}
 
                             <div className="mt-8">
-                                <p className="text-white/40 text-sm uppercase tracking-widest font-bold mb-4">Ijtimoiy tarmoqlar</p>
-                                <a href="https://t.me/Odilbek" className="inline-flex items-center gap-2 px-6 py-3 bg-[#D4AF37] text-[#0A1128] font-bold rounded-full">
-                                    Telegram orqali bog'lanish
+                                <a href="https://t.me/family_stay_bot" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-full gap-2 px-6 py-4 bg-[#D4AF37] text-[#0A1128] font-bold rounded-2xl">
+                                    @family_stay_bot
                                 </a>
                             </div>
                         </div>

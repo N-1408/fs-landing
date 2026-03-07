@@ -1,7 +1,6 @@
 {
   "nav": {
-    "problem": "Проблема",
-    "solution": "Решение",
+    "overview": "О проекте",
     "compare": "Анализ рынка",
     "gallery": "Объекты",
     "app": "MVP Демо",
@@ -256,7 +255,7 @@
     "competitionSub": "специально для Республиканского конкурса",
     "brand": "«Mirzo Ulug'bek vorislari»",
     "location": "Ташкент — 2026",
-    "telegram": "Связаться с основателем (Telegram)",
+    "telegram": "Тестировать бота (@family_stay_bot)",
     "copyright": "© 2026 Проект Heaven Feel - Family Stay. Разработано Туйчиевой Ш."
   }
 }

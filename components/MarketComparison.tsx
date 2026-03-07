@@ -61,12 +61,12 @@ export default function MarketComparison() {
                     </motion.p>
                 </div>
 
-                {/* 📊 Comparison Grid (Desktop mostly, stack on mobile) */}
-                <div className="w-full overflow-x-auto pb-8">
-                    <div className="min-w-[800px] grid grid-cols-4 gap-4 items-center">
+                {/* 📊 Responsive Comparison Grid */}
+                <div className="w-full relative z-10 pt-4 pb-12 px-2 lg:px-0">
+                    <div className="flex flex-col lg:grid lg:grid-cols-4 gap-8 lg:gap-4 items-center lg:items-end">
 
-                        {/* Legend Column */}
-                        <div className="flex flex-col gap-6 pt-24 pr-4">
+                        {/* Legend Column (Desktop Only) */}
+                        <div className="hidden lg:flex flex-col gap-6 w-full pr-4 pb-[32px]">
                             {features.map((feat, i) => (
                                 <div key={i} className="h-16 flex items-center text-sm font-bold text-[#0A1128]/60 uppercase tracking-wider border-b border-[#0A1128]/10 last:border-0">
                                     {feat}
@@ -84,21 +84,21 @@ export default function MarketComparison() {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: colIndex * 0.15, duration: 0.8 }}
-                                    className={`flex flex-col rounded-[32px] p-6 relative ${isBrand
-                                            ? 'bg-[#0A1128] text-white shadow-2xl scale-105 z-10 border-t-8 border-[#D4AF37]'
-                                            : 'bg-white text-[#0A1128] bento-shadow border border-[#0A1128]/5'
+                                    className={`w-full flex flex-col rounded-[32px] p-6 lg:p-8 relative ${isBrand
+                                        ? 'bg-[#0A1128] text-white shadow-2xl lg:scale-105 z-20 border-t-8 border-[#D4AF37]'
+                                        : 'bg-white text-[#0A1128] bento-shadow border border-[#0A1128]/5 z-10'
                                         }`}
                                 >
 
                                     {isBrand && (
-                                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-[#0A1128] text-[10px] font-black uppercase tracking-widest px-4 py-1.5 rounded-full shadow-lg">
+                                        <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-[#0A1128] text-[11px] font-black uppercase tracking-widest px-6 py-2 rounded-full shadow-lg whitespace-nowrap">
                                             Top Choice
                                         </div>
                                     )}
 
-                                    <div className="h-24 flex flex-col items-center justify-center text-center border-b border-current/10 mb-6 pb-6">
-                                        {isBrand && <div className="w-10 h-10 rounded-xl bg-[#D4AF37] text-[#0A1128] font-black text-xl flex items-center justify-center mb-3">H</div>}
-                                        <h3 className={`font-display text-2xl font-bold ${isBrand ? 'text-white' : 'text-[#0A1128]'}`}>
+                                    <div className="flex flex-col items-center justify-center text-center border-b border-current/10 mb-6 pb-6 pt-2">
+                                        {isBrand && <div className="w-12 h-12 rounded-2xl bg-[#D4AF37] text-[#0A1128] font-black text-2xl flex items-center justify-center mb-4 shadow-inner">H</div>}
+                                        <h3 className={`font-display text-2xl lg:text-3xl font-bold ${isBrand ? 'text-white' : 'text-[#0A1128]'}`}>
                                             {col.name}
                                         </h3>
                                     </div>
@@ -110,15 +110,22 @@ export default function MarketComparison() {
 
                                             if (isBrand) {
                                                 Icon = CheckCircle2;
-                                            } else if (valIndex === 1 || valIndex === 2 || val.includes("4x")) {
+                                            } else if (valIndex === 1 || valIndex === 2 || val.includes("4x") || val.includes("4х")) {
                                                 Icon = XCircle;
                                                 iconColor = "text-[#C84B31]/80";
                                             }
 
                                             return (
-                                                <div key={valIndex} className={`h-16 flex flex-col items-center justify-center text-center border-b border-current/10 last:border-0 ${isBrand ? 'text-[#FDFBF7]' : 'text-[#0A1128]/70'}`}>
-                                                    <Icon size={24} className={`mb-2 ${iconColor}`} />
-                                                    <span className="text-[15px] font-semibold leading-tight">{val}</span>
+                                                <div key={valIndex} className={`flex flex-col lg:h-16 items-center justify-center text-center border-b border-current/10 last:border-0 pb-4 lg:pb-0 ${isBrand ? 'text-[#FDFBF7]' : 'text-[#0A1128]/70'}`}>
+                                                    {/* Mobile Feature Label */}
+                                                    <span className={`lg:hidden text-[11px] font-bold uppercase tracking-wider mb-2 ${isBrand ? 'text-[#D4AF37]' : 'text-[#0A1128]/50'}`}>
+                                                        {features[valIndex]}
+                                                    </span>
+
+                                                    <div className="flex flex-col items-center gap-1.5">
+                                                        <Icon size={22} className={`${iconColor}`} />
+                                                        <span className="text-[15px] font-semibold leading-tight">{val}</span>
+                                                    </div>
                                                 </div>
                                             )
                                         })}

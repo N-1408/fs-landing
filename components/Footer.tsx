@@ -53,7 +53,7 @@ export default function Footer() {
                     className="mb-16"
                 >
                     <a
-                        href="https://t.me/Odilbek"
+                        href="https://t.me/family_stay_bot"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group relative inline-flex items-center gap-3 px-8 py-4 bg-[#D4AF37] text-[#0A1128] font-bold rounded-full overflow-hidden bento-shadow"

@@ -1,7 +1,6 @@
 {
     "nav": {
-        "problem": "Muammo",
-        "solution": "Yechim",
+        "overview": "Loyiha haqida",
         "compare": "Bozor tahlili",
         "gallery": "Obyektlar",
         "app": "MVP Demo",
@@ -256,7 +255,7 @@
         "competitionSub": "Respublika tanlovi uchun mahsus",
         "brand": "«Mirzo Ulug'bek vorislari»",
         "location": "Toshkent — 2026",
-        "telegram": "Asoschi bilan bog'lanish (Telegram)",
+        "telegram": "Botni sinab ko'rsih (@family_stay_bot)",
         "copyright": "© 2026 Heaven Feel - Family Stay Loyihasi. Tuychiyeva Sh. tomonidan ishlab chiqilgan"
     }
 }

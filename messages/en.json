@@ -1,7 +1,6 @@
 {
     "nav": {
-        "problem": "Problem",
-        "solution": "Solution",
+        "overview": "Overview",
         "compare": "Market Analysis",
         "gallery": "Properties",
         "app": "MVP Demo",
@@ -256,7 +255,7 @@
         "competitionSub": "Created specifically for the Republican Competition",
         "brand": "'Mirzo Ulug'bek vorislari'",
         "location": "Tashkent — 2026",
-        "telegram": "Contact Founder (Telegram)",
+        "telegram": "Test our Bot (@family_stay_bot)",
         "copyright": "© 2026 Heaven Feel - Family Stay. Developed by Tuychiyeva Sh."
     }
 }
