@@ -1,0 +1,262 @@
+{
+    "nav": {
+        "problem": "Muammo",
+        "solution": "Yechim",
+        "compare": "Bozor tahlili",
+        "gallery": "Obyektlar",
+        "app": "MVP Demo",
+        "roadmap": "Yo'l xaritasi",
+        "impact": "Ta'sir",
+        "team": "Jamoa",
+        "logoSub": "Family Stay"
+    },
+    "hero": {
+        "badge": "«Mirzo Ulug'bek vorislari» tanlovi uchun Startap Loyiha",
+        "title": "O'zbekistonda katta oilalar uchun yangi turar-joy standarti",
+        "subtitle": "Milliy xususiyatlarni inobatga olgan holda yaratilgan noyob xizmat. Turistik guruhlar va 6-12 kishilik oilalar uchun moslashtirilgan keng kvartiralar va hovlilar.",
+        "cta": "Obyektlarni ko'rish",
+        "statCapacity": "Sig'imi",
+        "statCapacityValue": "6-12",
+        "statProperties": "Tayyor obyektlar",
+        "statPropertiesValue": "3",
+        "statYear": "Ishga tushirish",
+        "statYearValue": "2026"
+    },
+    "problem": {
+        "badge": "Bozordagi muammo",
+        "title": "Katta oilalar qanday qiyinchiliklarga duch kelishadi?",
+        "subtitle": "Ko'p bolali oilalar va 6 kishidan ortiq guruhlar mos infratuzilma yo'qligi sababli ortiqcha pul to'lashga yoki alohida xonalarga bo'linishga majbur.",
+        "items": [
+            {
+                "title": "Mos turar-joy taqchilligi",
+                "desc": "O'zbekiston bozorida 6–12 kishi bir vaqtning o'zida yashashi uchun katta va shinam uyni topish juda qiyin."
+            },
+            {
+                "title": "Mehmonxonalarning qimmatligi",
+                "desc": "An'anaviy mehmonxonalar asosan 1-2 kishilik xonalarga moslashgani katta oilalar byudjetiga jiddiy zarba beradi."
+            },
+            {
+                "title": "Cheklangan qulaylik",
+                "desc": "Butun oila birgalikda vaqt o'tkazishi uchun mo'ljallangan to'liq jihozlangan oshxona va keng zallarning yo'qligi."
+            },
+            {
+                "title": "Ixtisoslashgan xizmat yo'q",
+                "desc": "Mavjud ijara xizmatlari guruhlarga emas, balki asosan juftliklar yoki yakka sayohatchilarga qaratilgan."
+            }
+        ]
+    },
+    "solution": {
+        "badge": "Bizning yondashuv",
+        "title": "Heaven Feel: Guruhlar uchun yaratilgan",
+        "subtitle": "O'zbekistonda faqat turistik guruhlar va oilalarni (6 kishidan boshlab) birgalikda joylashtirishga ixtisoslashgan birinchi startap.",
+        "items": [
+            {
+                "title": "Ko'p bolali oilalarga e'tibor",
+                "desc": "Katta guruhlarning qulay, xavfsiz va birgalikda yashashi uchun maxsus hududlarga ajratilgan makonlar."
+            },
+            {
+                "title": "Haqiqiy uy muhiti",
+                "desc": "Shunchaki karavot emas, balki keng mehmonxona va bolalar uchun xavfsiz hovliga ega bo'lgan to'liq joy ijarasi."
+            },
+            {
+                "title": "Byudjetni 40% gacha tejash",
+                "desc": "Bizning bitta villamizni ijaraga olish an'anaviy mehmonxonadan 4-5 ta alohida xona band qilishdan ancha arzon."
+            },
+            {
+                "title": "Band qilish oson",
+                "desc": "Qisqa va uzoq muddatli ijara uchun moslashuvchan onlayn band qilish imkoniyati."
+            },
+            {
+                "title": "Mutlaq xavfsizlik",
+                "desc": "Shartnoma asosida ishlash. Mijozlarni ro'yxatga olish jurnali hamda toza va xavfsiz bitimlarning qat'iy nazorati."
+            }
+        ]
+    },
+    "compare": {
+        "badge": "Bozor tahlili",
+        "title": "Nega Heaven Feel raqobatchilardan ustun?",
+        "subtitle": "8 kishilik oila uchun takliflarning qiyosiy xarakteristikasi. Heaven Feel narx, qulaylik va xavfsizlikning eng yaxshi nisbatini taklif etadi.",
+        "features": [
+            "Bitta joyda birgalikda yashash",
+            "Oshxona mavjudligi",
+            "Bolalar uchun o'yin maydoni",
+            "Bir kecha uchun narx (o'rtacha)"
+        ],
+        "brand": {
+            "name": "Heaven Feel",
+            "values": [
+                "Hamma birga",
+                "Shaxsiy oshxona",
+                "Yopiq hovli/hudud",
+                "Hamyonbop narx"
+            ]
+        },
+        "hotel": {
+            "name": "An'anaviy mehmonxona",
+            "values": [
+                "Turli xonalarda",
+                "Yo'q",
+                "Faqat lobbi",
+                "Qimmat (4x)"
+            ]
+        },
+        "rent": {
+            "name": "Oddiy kvartira",
+            "values": [
+                "Tor (maks. 4 kishi)",
+                "Kichkina",
+                "Yo'q",
+                "O'rtacha narx"
+            ]
+        }
+    },
+    "mvp": {
+        "badge": "MVP Demo",
+        "title": "Innovatsion band qilish ilovasi",
+        "subtitle": "Biz oilaviy obyektlarni onlayn tarzda qulay qidirish va xavfsiz band qilish uchun shaxsiy mobil MVP ilovamizni ishlab chiqyapmiz.",
+        "features": [
+            {
+                "title": "Tezkor qidiruv",
+                "desc": "Aqlli filtr oila a'zolari soniga qarab eng mos keladigan turar-joyni tanlab beradi."
+            },
+            {
+                "title": "Bandlikni tekshirish",
+                "desc": "Real vaqt rejimida bo'sh sanalarni ko'rsatuvchi integratsiyalashgan kalendar."
+            },
+            {
+                "title": "Onlayn shartnoma",
+                "desc": "To'g'ridan-to'g'ri ilova ichida qisqa muddatli ijara shartnomasini elektron tarzda tuzish."
+            }
+        ],
+        "appScreen": "Heaven Feel Ilovasi",
+        "appGreeting": "Qayoqqa ketamiz, oila?",
+        "appDates": "24-May - 28-May · 8 kishi",
+        "appResultTitle": "Eng yaxshi variantlar",
+        "appVilla": "Oilaviy villa №1",
+        "appPrice": "$120 / kechasi",
+        "appBtn": "Band qilish"
+    },
+    "resources": {
+        "badge": "Bizning obyektlar",
+        "title": "Mavjud ko'chmas mulk fondi",
+        "subtitle": "Loyihaning ishga tushirish bosqichida mehmonlarni qabul qilishga to'liq tayyorlangan 3 ta obyektimiz mavjud.",
+        "items": [
+            {
+                "type": "Kvartira",
+                "name": "Oilaviy kvartira",
+                "location": "Toshkent shahri",
+                "capacity": "8 kishigacha",
+                "desc": "4 xonali formatdagi keng shahar kvartirasi. Katta yashash xonasi, ideal tozalik va barcha maishiy texnika mavjud."
+            },
+            {
+                "type": "Xususiy uy",
+                "name": "Oilaviy villa №1",
+                "location": "Toshkent viloyati",
+                "capacity": "8-12 kishi",
+                "desc": "Haqiqiy o'zbek mehmondo'stligi muhitini („hovli“) yaratadigan, yopiq ichki hovliga ega bo'lgan uy."
+            },
+            {
+                "type": "Xususiy uy",
+                "name": "Oilaviy villa №2",
+                "location": "Toshkent viloyati",
+                "capacity": "8-12 kishi",
+                "desc": "Ikki qavatli kottej. Bir necha avlod qarindoshlar hordiq chiqarishi uchun ideal. Bolalar uchun xavfsiz o'yin hududi."
+            }
+        ]
+    },
+    "roadmap": {
+        "badge": "Rivojlanish rejasi",
+        "title": "Startapni amalga oshirish strategiyasi",
+        "subtitle": "G'oyadan tortib B2B hamkorlikni kengaytirishgacha bo'lgan aniq, bosqichma-bosqich reja.",
+        "phases": [
+            {
+                "num": "01",
+                "title": "Tayyorgarlik (1-2 oy)",
+                "period": "Start",
+                "desc": "1 ta kvartira va 2 ta hovlini tayyorlash, ta'mirlash, uyni jihozlash va biznesni rasmiylashtirish."
+            },
+            {
+                "num": "02",
+                "title": "Loyihani ishga tushirish (3-oy)",
+                "period": "E'lon",
+                "desc": "Suratga olish, e'lonlarni joylashtirish, Instagram va Telegram sahifalarini yuritish, buyurtmalar olishni boshlash."
+            },
+            {
+                "num": "03",
+                "title": "Marketing (4-6 oy)",
+                "period": "Rag'bat",
+                "desc": "Ijtimoiy tarmoqlarda reklama, ko'p bolali oilalar uchun chegirmalar. Fikr-mulohazalar bilan ishlash."
+            },
+            {
+                "num": "04",
+                "title": "Xizmatni rivojlantirish (6-12 oy)",
+                "period": "Sifat",
+                "desc": "Qo'shimcha xizmatlarni joriy etish: tozalash (klining), so'rov bo'yicha transfer (mikroavtobuslar)."
+            },
+            {
+                "num": "05",
+                "title": "Kengaytirish (12+ oy)",
+                "period": "B2B",
+                "desc": "Sayyohlik agentliklari bilan hamkorlik o'rnatish, ko'chmas mulk obyektlari bazasini oshirish."
+            }
+        ]
+    },
+    "impact": {
+        "badge": "Ijtimoiy ta'sir",
+        "title": "Jamiyat uchun foyda va shaffoflik",
+        "subtitle": "Heaven Feel loyihasi yaqqol ijtimoiy yo'nalishga va mutlaq huquqiy tozalikka ega.",
+        "items": [
+            {
+                "title": "Ko'p bolali oilalarga ko'mak",
+                "desc": "3 va undan ortiq bolali oilalarni hamyonbop va qulay turar-joy bilan ta'minlash."
+            },
+            {
+                "title": "Ichki turizm",
+                "desc": "Butun O'zbekiston bo'ylab guruh bo'lib sayohat qilishni rag'batlantirish."
+            },
+            {
+                "title": "Ish o'rinlari",
+                "desc": "Xizmat ko'rsatish, tozalash va ma'muriyat sohalarida yangi ish o'rinlarini shakllantirish."
+            }
+        ],
+        "regBadge": "Loyihaning rasmiy hujjatlari",
+        "regTitle": "Qonuniy biznes (YATT)",
+        "regDesc": "Startap rasmiy va shaffof ishlashga to'liq tayyor. Barcha kerakli yuridik va tashkiliy hujjatlar joriy etilgan.",
+        "docs": [
+            "YATT ro'yxatdan o'tganligi haqida guvohnoma",
+            "Qisqa muddatli yashash shartnomasi",
+            "Mehmonlarning yashash qoidalari",
+            "Mijozlarni ro'yxatga olish jurnali",
+            "To'lovlarni hisobga olish tizimi"
+        ],
+        "regName": "Ruzimatov Odil Tuychiyevich",
+        "regDate": "Ro'yxatga olingan sana: 23.02.2026"
+    },
+    "team": {
+        "badge": "Asoschilar",
+        "title": "Heaven Feel jamoasi",
+        "subtitle": "Loyihani olg'a yetaklayotgan yosh styuard va mutaxassislar jamoasi.",
+        "members": [
+            {
+                "name": "Tuychiyeva Shahzoda",
+                "role": "Loyiha rahbari"
+            },
+            {
+                "name": "Ruzimatov Odil",
+                "role": "Tadbirkor / Huquqshunos"
+            },
+            {
+                "name": "Mikhayeva Dilyara",
+                "role": "Marketing va PR"
+            }
+        ]
+    },
+    "footer": {
+        "competition": "Startap Loyiha",
+        "competitionSub": "Respublika tanlovi uchun mahsus",
+        "brand": "«Mirzo Ulug'bek vorislari»",
+        "location": "Toshkent — 2026",
+        "telegram": "Asoschi bilan bog'lanish (Telegram)",
+        "copyright": "© 2026 Heaven Feel - Family Stay Loyihasi. Tuychiyeva Sh. tomonidan ishlab chiqilgan"
+    }
+}

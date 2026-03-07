@@ -1,0 +1,174 @@
+/* 📄 File: app/globals.css — Global stylesheet (Heaven Feel 2.0) */
+/* 👤 Created by: User with AI */
+/* 📝 Description: Ultimate UI/UX base for Heaven Feel. Includes rich "Modern Uzbekistan"
+   theme tokens (midnight blue, sunset gold, terracotta), glassmorphism utilities,
+   custom background patterns (Milliy naqsh), and solid nav styling. */
+/* 📅 Created at: 2026-03-07 07:13 (Tashkent Time) */
+/* 📝 Change Log:
+   [2026-03-07 06:45] — Creative Overhaul 1.0
+   [2026-03-07 07:13] — Overhaul 2.0: Deep Ikat patterns, App Demo keyframes, Solid Header */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+@import "tailwindcss";
+
+/* 🎨 Theme Overrides for Tailwind v4 */
+@theme {
+  --color-background: #FDFBF7;
+  /* Extremely warm, elegant off-white */
+  --color-foreground: #0A1128;
+  /* Deep Midnight Blue */
+
+  /* Modern Uzbekistan Palette */
+  --color-uz-navy: #0A1128;
+  --color-uz-gold: #D4AF37;
+  --color-uz-gold-light: #F4E285;
+  --color-uz-terracotta: #C84B31;
+  --color-uz-sand: #ECDBBA;
+  --color-uz-teal: #1F4E5B;
+
+  /* Custom fonts */
+  --font-display: "Playfair Display", serif;
+  --font-body: "Nunito", sans-serif;
+}
+
+/* ─── 🌐 Base Reset ─────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background) !important;
+  color: var(--color-foreground) !important;
+  margin: 0;
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── ✨ Custom Utilities ────────────────────────────────────────── */
+
+/* Typography */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, var(--color-uz-gold), #b8901b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-navy {
+  background: linear-gradient(135deg, var(--color-uz-navy), #1e293b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(10, 17, 40, 0.05);
+}
+
+.glass-panel-dark {
+  background: rgba(10, 17, 40, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Solid Navbar */
+.solid-nav {
+  background: var(--color-uz-navy);
+  border-bottom: 2px solid var(--color-uz-gold);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Beautiful Bento Box Shadows */
+.bento-shadow {
+  box-shadow: 0 10px 40px -10px rgba(10, 17, 40, 0.08);
+}
+
+.bento-shadow:hover {
+  box-shadow: 0 20px 50px -15px rgba(10, 17, 40, 0.15);
+}
+
+/* ─── 🧭 Background Patterns & Textures ────────────────────────── */
+.pattern-uzbek-subtle {
+  background-color: var(--color-background);
+  background-image: radial-gradient(var(--color-uz-sand) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Milliy Ikat / Adras Inspiration Pattern */
+.pattern-milliy-ikat {
+  background-color: #0A1128;
+  background-image: repeating-linear-gradient(45deg,
+      rgba(212, 175, 55, 0.05) 0px,
+      rgba(212, 175, 55, 0.05) 20px,
+      transparent 20px,
+      transparent 40px), repeating-linear-gradient(-45deg,
+      rgba(200, 75, 49, 0.05) 0px,
+      rgba(200, 75, 49, 0.05) 20px,
+      transparent 20px,
+      transparent 40px);
+}
+
+.gradient-overlay-hero {
+  background: linear-gradient(180deg,
+      rgba(10, 17, 40, 0.6) 0%,
+      rgba(10, 17, 40, 0.85) 100%);
+}
+
+/* ─── 📱 Phone Mockup Animations ────────────────────────────────── */
+@keyframes mockScroll {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-30%);
+  }
+
+  70% {
+    transform: translateY(-30%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-mock-scroll {
+  animation: mockScroll 10s ease-in-out infinite;
+}
+
+/* ─── 📱 Custom Scrollbar ───────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-uz-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8901b;
+}
+
+::selection {
+  background: var(--color-uz-gold-light);
+  color: var(--color-uz-navy);
+}

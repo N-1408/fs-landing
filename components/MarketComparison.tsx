@@ -1,0 +1,136 @@
+// 📄 File: components/MarketComparison.tsx — Deep Data Grid
+// 👤 Created by: User with AI
+// 📝 Description: High-end comparison matrix showing Heaven Feel vs Traditional 
+//     Hotels vs Standard Rent. Data extracted from the official PDF pitch deck.
+// 📅 Created at: 2026-03-07 07:13 (Tashkent Time)
+
+'use client';
+
+import { useTranslations } from 'next-intl';
+import { motion } from 'framer-motion';
+import { CheckCircle2, XCircle, AlertCircle } from 'lucide-react';
+
+export default function MarketComparison() {
+    const t = useTranslations('compare');
+    const features = t.raw('features') as string[];
+
+    const brand = t.raw('brand') as { name: string; values: string[] };
+    const hotel = t.raw('hotel') as { name: string; values: string[] };
+    const rent = t.raw('rent') as { name: string; values: string[] };
+
+    const columns = [brand, hotel, rent];
+
+    return (
+        <section id="compare" className="py-24 sm:py-32 bg-[#FDFBF7] relative overflow-hidden">
+
+            {/* Abstract Background Flairs */}
+            <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#D4AF37]/5 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2" />
+            <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#C84B31]/5 rounded-full blur-3xl -z-10 -translate-x-1/2 translate-y-1/2" />
+
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                {/* 📌 Header */}
+                <div className="text-center mb-16 lg:mb-24">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest bg-[#C84B31]/10 text-[#C84B31] mb-6 border border-[#C84B31]/20"
+                    >
+                        📊 {t('badge')}
+                    </motion.div>
+
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.1 }}
+                        className="font-display text-4xl sm:text-5xl font-bold text-[#0A1128] mb-6"
+                    >
+                        {t('title')}
+                    </motion.h2>
+
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 }}
+                        className="text-[#0A1128]/60 text-lg max-w-2xl mx-auto"
+                    >
+                        {t('subtitle')}
+                    </motion.p>
+                </div>
+
+                {/* 📊 Comparison Grid (Desktop mostly, stack on mobile) */}
+                <div className="w-full overflow-x-auto pb-8">
+                    <div className="min-w-[800px] grid grid-cols-4 gap-4 items-center">
+
+                        {/* Legend Column */}
+                        <div className="flex flex-col gap-6 pt-24 pr-4">
+                            {features.map((feat, i) => (
+                                <div key={i} className="h-16 flex items-center text-sm font-bold text-[#0A1128]/60 uppercase tracking-wider border-b border-[#0A1128]/10 last:border-0">
+                                    {feat}
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Competitor Columns */}
+                        {columns.map((col, colIndex) => {
+                            const isBrand = colIndex === 0;
+                            return (
+                                <motion.div
+                                    key={colIndex}
+                                    initial={{ opacity: 0, y: 40 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: colIndex * 0.15, duration: 0.8 }}
+                                    className={`flex flex-col rounded-[32px] p-6 relative ${isBrand
+                                            ? 'bg-[#0A1128] text-white shadow-2xl scale-105 z-10 border-t-8 border-[#D4AF37]'
+                                            : 'bg-white text-[#0A1128] bento-shadow border border-[#0A1128]/5'
+                                        }`}
+                                >
+
+                                    {isBrand && (
+                                        <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-[#0A1128] text-[10px] font-black uppercase tracking-widest px-4 py-1.5 rounded-full shadow-lg">
+                                            Top Choice
+                                        </div>
+                                    )}
+
+                                    <div className="h-24 flex flex-col items-center justify-center text-center border-b border-current/10 mb-6 pb-6">
+                                        {isBrand && <div className="w-10 h-10 rounded-xl bg-[#D4AF37] text-[#0A1128] font-black text-xl flex items-center justify-center mb-3">H</div>}
+                                        <h3 className={`font-display text-2xl font-bold ${isBrand ? 'text-white' : 'text-[#0A1128]'}`}>
+                                            {col.name}
+                                        </h3>
+                                    </div>
+
+                                    <div className="flex flex-col gap-6">
+                                        {col.values.map((val, valIndex) => {
+                                            let Icon = AlertCircle;
+                                            let iconColor = isBrand ? "text-[#D4AF37]" : "text-[#0A1128]/40";
+
+                                            if (isBrand) {
+                                                Icon = CheckCircle2;
+                                            } else if (valIndex === 1 || valIndex === 2 || val.includes("4x")) {
+                                                Icon = XCircle;
+                                                iconColor = "text-[#C84B31]/80";
+                                            }
+
+                                            return (
+                                                <div key={valIndex} className={`h-16 flex flex-col items-center justify-center text-center border-b border-current/10 last:border-0 ${isBrand ? 'text-[#FDFBF7]' : 'text-[#0A1128]/70'}`}>
+                                                    <Icon size={24} className={`mb-2 ${iconColor}`} />
+                                                    <span className="text-[15px] font-semibold leading-tight">{val}</span>
+                                                </div>
+                                            )
+                                        })}
+                                    </div>
+                                </motion.div>
+                            )
+                        })}
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    );
+}

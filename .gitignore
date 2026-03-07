@@ -1,0 +1,43 @@
+# 📄 File: .gitignore — Git ignore rules for Heaven Feel project
+# 👤 Created by: User with AI
+# 📝 Description: Standard Next.js gitignore file that excludes node_modules,
+#     build artifacts, environment files, and IDE-specific files from version control.
+#     Follows the user's rules to never push .env files to GitHub.
+# 📅 Created at: 2026-03-07 05:21 (Tashkent Time)
+
+# 📦 Dependencies
+node_modules/
+.npm
+
+# 🏗️ Build output
+.next/
+out/
+build/
+dist/
+
+# 🔐 Environment variables — NEVER push to GitHub!
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# 🪵 Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 💻 IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 🔧 Misc
+.vercel
+*.tsbuildinfo
+next-env.d.ts

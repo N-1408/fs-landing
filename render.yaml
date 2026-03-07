@@ -1,0 +1,33 @@
+# 📄 File: render.yaml — Render.com deployment configuration for Heaven Feel
+# 👤 Created by: User with AI
+# 📝 Description: Infrastructure-as-code configuration for deploying the Heaven Feel
+#     Next.js application on Render.com. Defines the web service build command,
+#     start command, environment variables, and auto-deploy settings.
+# 📅 Created at: 2026-03-07 05:21 (Tashkent Time)
+
+services:
+  # 🚀 Web service definition
+  - type: web
+    name: heaven-feel
+    env: node
+    region: frankfurt  # 🌍 Closest to Uzbekistan
+    plan: free
+
+    # 🔨 Build command
+    buildCommand: npm install && npm run build
+
+    # ▶️ Start command
+    startCommand: npm start
+
+    # 🌐 Environment variables
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+
+    # 🔁 Auto-deploy on push to main branch
+    autoDeploy: true
+
+    # 📋 Health check
+    healthCheckPath: /

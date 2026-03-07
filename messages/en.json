@@ -1,0 +1,262 @@
+{
+    "nav": {
+        "problem": "Problem",
+        "solution": "Solution",
+        "compare": "Market Analysis",
+        "gallery": "Properties",
+        "app": "MVP Demo",
+        "roadmap": "Roadmap",
+        "impact": "Impact",
+        "team": "Team",
+        "logoSub": "Family Stay"
+    },
+    "hero": {
+        "badge": "Startup Project: 'Mirzo Ulug'bek vorislari' Competition",
+        "title": "A New Accommodation Standard for Large Families in Uzbekistan",
+        "subtitle": "A unique service built with national characteristics in mind. Spacious apartments and houses adapted for tourist groups and families of 6–12 people.",
+        "cta": "View Properties",
+        "statCapacity": "Capacity",
+        "statCapacityValue": "6-12",
+        "statProperties": "Ready Properties",
+        "statPropertiesValue": "3",
+        "statYear": "Launch Year",
+        "statYearValue": "2026"
+    },
+    "problem": {
+        "badge": "Market Challenge",
+        "title": "What challenges do large families face?",
+        "subtitle": "Large families and groups of 6+ people are forced to overpay or split into separate rooms due to the lack of suitable infrastructure.",
+        "items": [
+            {
+                "title": "Shortage of Suitable Housing",
+                "desc": "Finding a single house or spacious apartment for 6–12 people at once is an extremely difficult task in the Uzbekistan market."
+            },
+            {
+                "title": "High Cost of Hotels",
+                "desc": "Traditional hotels charge per room (1-2 people), which heavily impacts the budget of large families."
+            },
+            {
+                "title": "Limited Comfort",
+                "desc": "Lack of full kitchens and large common living areas designed for the whole family to spend time together."
+            },
+            {
+                "title": "No Dedicated Services",
+                "desc": "Existing rental services are aimed at couples or solo travelers, not at large groups."
+            }
+        ]
+    },
+    "solution": {
+        "badge": "Our Approach",
+        "title": "Heaven Feel: Designed for Groups",
+        "subtitle": "The first startup in Uzbekistan specializing exclusively in accommodating families and tourist groups of 6 or more.",
+        "items": [
+            {
+                "title": "Focus on Large Families",
+                "desc": "Spaces explicitly zoned for the comfortable, safe, and joint accommodation of large groups."
+            },
+            {
+                "title": "True Home Atmosphere",
+                "desc": "You rent a full house, not just a bed: featuring a spacious living room and a safe yard for children."
+            },
+            {
+                "title": "Save up to 40% of the Budget",
+                "desc": "Renting one of our villas is significantly cheaper than booking 4-5 separate rooms in a standard hotel."
+            },
+            {
+                "title": "Easy Booking",
+                "desc": "Flexible online booking capabilities for both short-term and long-term rentals."
+            },
+            {
+                "title": "Absolute Safety",
+                "desc": "Contract-based operation. Guest registration logs and strict control over cleanliness and transaction security."
+            }
+        ]
+    },
+    "compare": {
+        "badge": "Market Analysis",
+        "title": "Why Heaven Feel Beats the Competition?",
+        "subtitle": "Comparative analysis of offers for a family of 8. Heaven Feel offers the best ratio of price, comfort, and domestic coziness.",
+        "features": [
+            "Joint Accommodation",
+            "Kitchen Availability",
+            "Children's Play Area",
+            "Price per Night (Average)"
+        ],
+        "brand": {
+            "name": "Heaven Feel",
+            "values": [
+                "All Together",
+                "Private Kitchen",
+                "Closed Yard/Area",
+                "Affordable Price"
+            ]
+        },
+        "hotel": {
+            "name": "Traditional Hotel",
+            "values": [
+                "Separate Rooms",
+                "Unavailable",
+                "Lobby Only",
+                "High Price (4x)"
+            ]
+        },
+        "rent": {
+            "name": "Standard Apartment",
+            "values": [
+                "Cramped (max 4)",
+                "Small",
+                "Unavailable",
+                "Medium Price"
+            ]
+        }
+    },
+    "mvp": {
+        "badge": "MVP Demo",
+        "title": "Innovative Booking App",
+        "subtitle": "We are developing our proprietary mobile MVP for convenient search and secure online booking of family properties.",
+        "features": [
+            {
+                "title": "Instant Search",
+                "desc": "An intelligent filter strictly selects housing based on the number of family members."
+            },
+            {
+                "title": "Availability Check",
+                "desc": "Integrated calendar displaying available dates in real-time."
+            },
+            {
+                "title": "Online Contract",
+                "desc": "Electronic signing of short-term lease agreements directly within the app."
+            }
+        ],
+        "appScreen": "Heaven Feel App",
+        "appGreeting": "Where to, family?",
+        "appDates": "May 24 - May 28 · 8 people",
+        "appResultTitle": "Best Options",
+        "appVilla": "Family Villa №1",
+        "appPrice": "$120 / night",
+        "appBtn": "Book Now"
+    },
+    "resources": {
+        "badge": "Our Properties",
+        "title": "Current Property Portfolio",
+        "subtitle": "At the launch stage, we have 3 fully equipped properties ready to host guests.",
+        "items": [
+            {
+                "type": "Apartment",
+                "name": "Family Apartment",
+                "location": "Tashkent",
+                "capacity": "Up to 8 people",
+                "desc": "A spacious 4-room urban apartment. Features a huge living room, perfect cleanliness, and a full set of household appliances."
+            },
+            {
+                "type": "Private House",
+                "name": "Family Villa №1",
+                "location": "Tashkent Region",
+                "capacity": "8-12 people",
+                "desc": "A house with a closed inner courtyard, creating the atmosphere of true Uzbek hospitality ('hovli')."
+            },
+            {
+                "type": "Private House",
+                "name": "Family Villa №2",
+                "location": "Tashkent Region",
+                "capacity": "8-12 people",
+                "desc": "A two-story cottage. Perfect for multi-generational recreation. Safe play area for children."
+            }
+        ]
+    },
+    "roadmap": {
+        "badge": "Development Plan",
+        "title": "Startup Implementation Strategy",
+        "subtitle": "A clear, step-by-step plan from ideation to B2B partnership scaling.",
+        "phases": [
+            {
+                "num": "01",
+                "title": "Preparation (M 1-2)",
+                "period": "Setup",
+                "desc": "Preparing 1 apartment and 2 houses, renovation, purchasing furniture/appliances, official registration."
+            },
+            {
+                "num": "02",
+                "title": "Project Launch (M 3)",
+                "period": "Start",
+                "desc": "Photography, placing listings, creating Instagram & Telegram pages, starting to accept bookings."
+            },
+            {
+                "num": "03",
+                "title": "Promotion (M 4-6)",
+                "period": "Marketing",
+                "desc": "Social media advertising, discounts for large families. Working with reviews and recommendations."
+            },
+            {
+                "num": "04",
+                "title": "Service Development (M 6-12)",
+                "period": "Refinement",
+                "desc": "Introducing additional services: cleaning, on-demand transfers (minibusses)."
+            },
+            {
+                "num": "05",
+                "title": "Scaling (M 12+)",
+                "period": "B2B",
+                "desc": "Cooperation with travel agencies, expanding the real estate property base."
+            }
+        ]
+    },
+    "impact": {
+        "badge": "Social Impact",
+        "title": "Transparency and Benefit to Society",
+        "subtitle": "The 'Heaven Feel' project has a pronounced social orientation and absolute legal purity.",
+        "items": [
+            {
+                "title": "Supporting Large Families",
+                "desc": "Providing affordable, home-like housing for families with three or more children."
+            },
+            {
+                "title": "Domestic Tourism",
+                "desc": "Stimulating group tourism across Uzbekistan."
+            },
+            {
+                "title": "Job Creation",
+                "desc": "Forming vacancies in the service, cleaning, and administration sectors."
+            }
+        ],
+        "regBadge": "Official Project Documents",
+        "regTitle": "Legal Business Entity",
+        "regDesc": "The startup is fully prepared for official and transparent work. All necessary legal and organizational procedures have been implemented.",
+        "docs": [
+            "Sole Proprietorship Registration Certificate",
+            "Short-term Lease Agreement",
+            "Guest Rules and Regulations",
+            "Client Registration Logbook",
+            "Payment Tracking System"
+        ],
+        "regName": "Ruzimatov Odil Tuychiyevich",
+        "regDate": "Date Registered: 23.02.2026"
+    },
+    "team": {
+        "badge": "Founders",
+        "title": "The Heaven Feel Team",
+        "subtitle": "An ambitious team of specialists driving the project forward.",
+        "members": [
+            {
+                "name": "Tuychiyeva Shaxzoda",
+                "role": "Project Manager"
+            },
+            {
+                "name": "Ruzimatov Odil",
+                "role": "Entrepreneur / Legal"
+            },
+            {
+                "name": "Mikhayeva Dilyara",
+                "role": "Marketing & PR"
+            }
+        ]
+    },
+    "footer": {
+        "competition": "Startup Submission",
+        "competitionSub": "Created specifically for the Republican Competition",
+        "brand": "'Mirzo Ulug'bek vorislari'",
+        "location": "Tashkent — 2026",
+        "telegram": "Contact Founder (Telegram)",
+        "copyright": "© 2026 Heaven Feel - Family Stay. Developed by Tuychiyeva Sh."
+    }
+}
