@@ -46,6 +46,7 @@ export default function Navbar() {
         { href: '#gallery', label: t('gallery') },
         { href: '#roadmap', label: t('roadmap') },
         { href: '#team', label: t('team') },
+        { href: '#reviews', label: t('reviews') },
     ];
 
     return (
@@ -55,13 +56,9 @@ export default function Navbar() {
 
                     {/* ✨ Logo */}
                     <a href="#" className="flex items-center gap-3 no-underline group outline-none">
-                        <Image
-                            src="/img/logo.png"
-                            alt="Heaven Feel Logo"
-                            width={40}
-                            height={40}
-                            className="rounded-xl shadow-lg group-hover:opacity-80 transition-opacity duration-300"
-                        />
+                        <div className="w-10 h-10 rounded-xl flex items-center justify-center text-[#0A1128] font-black text-xl bg-[#D4AF37] shadow-lg group-hover:bg-[#C84B31] group-hover:text-white transition-colors duration-300">
+                            H
+                        </div>
                         <div className="leading-tight">
                             <div className="font-display font-bold text-lg text-[#FDFBF7] tracking-wide">
                                 Heaven Feel
