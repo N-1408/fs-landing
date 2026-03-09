@@ -4,6 +4,7 @@
 //     into a seamless scrolling pitch deck experience.
 // 📅 Created at: 2026-03-07 07:13 (Tashkent Time)
 
+import { setRequestLocale } from 'next-intl/server';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import ProblemSolution from '@/components/ProblemSolution';
@@ -16,7 +17,10 @@ import Team from '@/components/Team';
 import Reviews from '@/components/Reviews';
 import Footer from '@/components/Footer';
 
-export default function Home() {
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+
     return (
         <main className="min-h-screen bg-[#FDFBF7]">
             <Navbar />

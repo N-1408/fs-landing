@@ -1,0 +1,29 @@
+HEAVEN FEEL - DATABASE SETUP INSTRUCTIONS (SUPABASE)
+======================================================
+Since the website is now a true Static App (so it never sleeps on Render), you need a cloud Database for the Client Reviews.
+
+1. Go to https://supabase.com/ and create a free account + New Project (call it "heaven-feel").
+
+2. Once the project dashboard opens, click "SQL Editor" on the left menu.
+
+3. Paste exactly this code and hit "Run":
+
+    create table public.reviews (
+      id uuid not null default gen_random_uuid (),
+      name character varying not null,
+      text text not null,
+      created_at timestamp with time zone not null default now(),
+      constraint reviews_pkey primary key (id)
+    );
+    alter table public.reviews enable row level security;
+    create policy "Allow anonymous read" on public.reviews for select using (true);
+    create policy "Allow anonymous insert" on public.reviews for insert with check (true);
+
+4. Go to your Project Settings -> API.
+5. Copy the "Project URL" and the "anon public" Key.
+6. Open your Render Dashboard for this project, go to "Environment", and add these two exact variables:
+
+   NEXT_PUBLIC_SUPABASE_URL = (paste URL here)
+   NEXT_PUBLIC_SUPABASE_ANON_KEY = (paste anon key here)
+
+Done! The website will now automatically read/write all reviews to Supabase forever!

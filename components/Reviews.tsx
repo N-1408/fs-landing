@@ -10,6 +10,7 @@ import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Quote, Send, Loader2, CheckCircle2 } from 'lucide-react';
+import { supabase } from '@/lib/supabase';
 
 export default function Reviews() {
     const t = useTranslations('reviews');
@@ -27,22 +28,31 @@ export default function Reviews() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
 
-    // Reviews State (starts with seed data, then merges localStorage)
+    // Reviews State (starts with seed data, then merges Supabase)
     const [reviews, setReviews] = useState<{ name: string, text: string, date: string, isNew?: boolean }[]>(seedItems);
 
-    // On mount, load any locally saved reviews
+    // On mount, load live reviews from Supabase
     useEffect(() => {
-        const saved = localStorage.getItem('hf_reviews');
-        if (saved) {
-            try {
-                const parsed = JSON.parse(saved);
-                // Prepend saved reviews to the seed items
-                setReviews([...parsed, ...seedItems]);
-            } catch (e) {
-                console.error("Failed to parse reviews", e);
+        const fetchReviews = async () => {
+            const { data, error } = await supabase
+                .from('reviews')
+                .select('*')
+                .order('created_at', { ascending: false });
+
+            if (!error && data) {
+                // Map DB schema to component state format
+                const dbReviews = data.map(r => ({
+                    name: r.name,
+                    text: r.text,
+                    date: r.created_at.split('T')[0],
+                    isNew: true // Highlight DB loaded reviews for fresh visual pop
+                }));
+                setReviews([...dbReviews, ...seedItems]);
             }
-        }
-    }, [t]); // Re-run if language changes to reset seed items, but prepend saved
+        };
+
+        fetchReviews();
+    }, [t]); // Re-run if language changes to reset seed items, but prepend DB
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -50,22 +60,29 @@ export default function Reviews() {
 
         setIsSubmitting(true);
 
-        // Simulate network delay to make it feel real
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        const newReviewDate = new Date().toISOString();
+
+        // Insert into Supabase
+        const { error } = await supabase
+            .from('reviews')
+            .insert([
+                { name: name.trim(), text: text.trim(), created_at: newReviewDate }
+            ]);
+
+        if (error) {
+            console.error("Error submitting review:", error);
+            setIsSubmitting(false);
+            return;
+        }
 
         const newReview = {
             name: name.trim(),
             text: text.trim(),
-            date: new Date().toISOString().split('T')[0],
+            date: newReviewDate.split('T')[0],
             isNew: true
         };
 
-        const updatedReviews = [newReview, ...reviews];
-        setReviews(updatedReviews);
-
-        // Save only the user-generated ones to localStorage so we don't duplicate seeds
-        const existingSaved = JSON.parse(localStorage.getItem('hf_reviews') || '[]');
-        localStorage.setItem('hf_reviews', JSON.stringify([newReview, ...existingSaved]));
+        setReviews([newReview, ...reviews]);
 
         setIsSubmitting(false);
         setIsSuccess(true);
