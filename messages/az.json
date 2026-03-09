@@ -1,280 +1,280 @@
 {
   "nav": {
-    "overview": "О проекте",
-    "compare": "Анализ рынка",
-    "gallery": "Объекты",
-    "app": "MVP Демо",
-    "roadmap": "Путь развития",
-    "impact": "Влияние",
-    "team": "Команда",
+    "overview": "Layihə Haqqında",
+    "compare": "Bazar Analizi",
+    "gallery": "Obyektlər",
+    "app": "MVP Demo",
+    "roadmap": "İnkişaf Yolu",
+    "impact": "Sosial Təsir",
+    "team": "Komanda",
     "logoSub": "Family Stay",
     "reviews": "Rəylər"
   },
   "hero": {
-    "badge": "Стартап-проект: Конкурс «Mirzo Ulug'bek vorislari»",
-    "title": "Новый стандарт размещения для больших семей в Узбекистане",
-    "subtitle": "Уникальный сервис, созданный с учетом национальных особенностей. Просторные квартиры и дома, адаптированные для туристических групп и семей из 6–12 человек.",
-    "cta": "Посмотреть объекты",
-    "statCapacity": "Вместимость",
+    "badge": "Startap Layihəsi: 'Mirzo Ulug'bek Vorislari' Müsabiqəsi",
+    "title": "Özbəkistanda Böyük Ailələr Üçün Yeni Yerləşdirmə Standartı",
+    "subtitle": "Milli xüsusiyyətlər nəzərə alınmaqla yaradılmış unikal bir xidmət. 6-12 nəfərlik böyük turist qrupları və ailələr üçün xüsusi olaraq uyğunlaşdırılmış geniş mənzil və villalar.",
+    "cta": "Obyektlərimizi Kəşf Edin",
+    "statCapacity": "Tutum",
     "statCapacityValue": "6-12",
-    "statProperties": "Объекта готовы",
+    "statProperties": "Hazır Obyektlər",
     "statPropertiesValue": "3",
-    "statYear": "Год запуска",
+    "statYear": "Layihənin Başlanğıcı",
     "statYearValue": "2026"
   },
   "problem": {
-    "badge": "Вызов рынка",
-    "title": "С чем сталкиваются большие семьи?",
-    "subtitle": "Многодетные семьи и группы от 6 человек вынуждены переплачивать или разбиваться по разным номерам из-за отсутствия подходящей инфраструктуры.",
+    "badge": "Bazarın Problemləri",
+    "title": "Böyük Ailələr Hansı Çətinliklərlə Üzləşirlər?",
+    "subtitle": "6 və daha çox nəfərdən ibarət çoxuşaqlı ailələr və turist qrupları, uyğun infrastrukturun olmaması səbəbindən ya əlavə ödəniş etməyə, ya da ayrı-ayrı otaqlara bölünməyə məcbur qılırlar.",
     "items": [
       {
-        "title": "Дефицит подходящего жилья",
-        "desc": "Найти один дом или просторную квартиру для 6–12 человек одновременно — сложнейшая задача на рынке Узбекистана."
+        "title": "Uyğun Mənzil Çatışmazlığı",
+        "desc": "Özbəkistan bazarında eyni vaxtda 6-12 nəfəri qəbul edə biləcək tək bir ev və ya geniş mənzil tapmaq kifayət qədər çətin bir məsələdir."
       },
       {
-        "title": "Дороговизна отелей",
-        "desc": "Традиционные гостиницы слишком дороги: привязка цен к одно- и двухместным номерам бьет по карману больших семей."
+        "title": "Yüksək Otel Qiymətləri",
+        "desc": "Ənənəvi otellər çox bahadır: Tək və iki nəfərlik otaqlara əsaslanan qiymətləndirmə, böyük ailələrin büdcəsinə ciddi zərbə vurur."
       },
       {
-        "title": "Ограниченный комфорт",
-        "desc": "Отсутствие полноценной кухни и общих просторных залов для совместного времяпровождения всей семьи."
+        "title": "Məhdud Komfort Dəyəri",
+        "desc": "Bütün ailənin bir yerdə vaxt keçirə biləcəyi geniş ümumi qonaq otaqlarının və tam təchiz olunmuş şəxsi mətbəxin olmaması."
       },
       {
-        "title": "Нет профильных сервисов",
-        "desc": "Существующие сервисы аренды ориентированы на пары или индивидуальных путешественников."
+        "title": "Profil Xidmətlərin Olmaması",
+        "desc": "Mövcud icarə xidmətləri daha çox cütlüklərə və ya fərdi səyahətçilərə yönəlib."
       }
     ]
   },
   "solution": {
-    "badge": "Наш подход",
-    "title": "Heaven Feel: Разработано для групп",
-    "subtitle": "Первый стартап в Узбекистане, специализирующийся исключительно на групповом размещении семей и туристов от 6 человек.",
+    "badge": "Bizim Yanaşmamız",
+    "title": "Heaven Feel: Qruplar Üçün Xüsusi Yaradılmışdır",
+    "subtitle": "Özbəkistanda 6 nəfər və ondan yuxarı olan ailələrin, həmçinin turist qruplarının qrup şəklində yerləşdirilməsi üzrə ixtisaslaşan ilk startap.",
     "items": [
       {
-        "title": "Фокус на многодетные семьи",
-        "desc": "Пространства, специально зонированные для комфортного, безопасного и совместного проживания больших групп."
+        "title": "Böyük Ailələrə Fokuslanma",
+        "desc": "Büyük qrupların daha rahat, tam təhlükəsiz və birlikdə yaşaması üçün xüsusi zonalaşdırılmış kəşfiyyat məkanları."
       },
       {
-        "title": "Настоящая домашняя атмосфера",
-        "desc": "Аренда не койко-места, а полноценного дома: с просторной гостиной (мехмонхона) и безопасным двором для детей."
+        "title": "Əsl Ev Atmosferi",
+        "desc": "Sadəcə bir yataq deyil, tam mənada bir ev icarəsi: xüsusilə geniş qonaq otağı ('mehmonxona') və uşaqlar üçün təhlükəsiz idarə olunan həyət."
       },
       {
-        "title": "Экономия до 40% бюджета",
-        "desc": "Аренда одной нашей виллы обходится значительно дешевле, чем бронирование 4-5 отдельных номеров в стандартном отеле."
+        "title": "Büdcəyə 40%-dək Qənaət",
+        "desc": "Bircə villamızın icarəyə götürülməsi, adi standart bir oteldə 4-5 ayrı otaq bron etməkdən qat-qat ucuz və səmərəlidir."
       },
       {
-        "title": "Легкость бронирования",
-        "desc": "Возможность онлайн-бронирования как для краткосрочной, так и для долгосрочной аренды."
+        "title": "Bronlaşdırmanın Asanlığı",
+        "desc": "Həm qısa, həm də çox uzunmüddətli rahat icarə üçün çox asan onlayn bronlaşdırma imkanı təqdim edirik."
       },
       {
-        "title": "Абсолютная безопасность",
-        "desc": "Договорная основа. Журнал регистрации клиентов и строгий контроль за чистотой и безопасностью сделок."
+        "title": "Mütləq Təhlükəsizlik Sistemi",
+        "desc": "Rəsmi müqavilə əsası. Müştərilərin tam qeydiyyat jurnalı, təmizlik prosesinə və əməliyyatların mütləq təhlükəsizliyinə ciddi nəzarət."
       }
     ]
   },
   "compare": {
-    "badge": "Анализ рынка",
-    "title": "Почему Heaven Feel обходит конкурентов?",
-    "subtitle": "Сравнительная характеристика предложений для семьи из 8 человек. Heaven Feel предлагает лучшее соотношение цены, комфорта и уюта.",
+    "badge": "Bazar Analizi",
+    "title": "Niyə 'Heaven Feel' Rəqiblərini Qabaqlayır?",
+    "subtitle": "8 nəfərlik gəzən tam bir ailə üçün təkliflərin xüsusi müqayisəli xüsusiyyətləri. 'Heaven Feel' hər zaman qiymət, rahatlıq və komfortun ən yaxşı nisbətini təklif edir.",
     "features": [
-      "Размещение в одном помещении",
-      "Наличие кухни",
-      "Место для детских игр",
-      "Цена за ночь (средняя)"
+      "Bütün Ailə Tək Məkanda",
+      "Şəxsi Mətbəxin Olması",
+      "Uşaqlar Üçün Özəl Oyun Zonalı",
+      "Bir Gecəlik Qiymət (Orta)"
     ],
     "brand": {
       "name": "Heaven Feel",
       "values": [
-        "Полностью вместе",
-        "Собственная кухня",
-        "Закрытый двор/зона",
-        "Выгодная цена"
+        "Tamamilə Birlikdə Yüksək",
+        "Şəxsi Geniş Mətbəx Varmı?",
+        "Tam Qapalı Geniş Həyət",
+        "Ən Sərfəli Aşağı Qiymət"
       ]
     },
     "hotel": {
-      "name": "Традиционный отель",
+      "name": "Ənənəvi Standart Otel",
       "values": [
-        "Разные номера",
-        "Отсутствует",
-        "Ограничено лобби",
-        "Высокая цена (4x)"
+        "Ayrı-ayrı Uzaq Otaqlar",
+        "Ümumiyyətlə Yoxdur",
+        "Yalnız Lobi İlə Məhdud",
+        "Çox Yüksək Qiymətli (4x)"
       ]
     },
     "rent": {
-      "name": "Обычная квартира",
+      "name": "Adi Standart Mənzil",
       "values": [
-        "Тесно (макc. 4 чел)",
-        "Маленькая",
-        "Отсутствует",
-        "Средняя цена"
+        "Çox Sıx (Maks. 4 Nəfər)",
+        "Kiçik Tutaqlıdır",
+        "Təəssüf ki Yoxdur",
+        "Orta Stabil Qiymətli"
       ]
     }
   },
   "mvp": {
-    "badge": "MVP Демо",
-    "title": "Инновационное приложение бронирования",
-    "subtitle": "Мы разрабатываем собственное мобильное MVP для удобного поиска и безопасного бронирования семейных объектов онлайн.",
+    "badge": "MVP Demo Sistemi",
+    "title": "Yenilikçi Onlayn Bronlaşdırma Tətbiqi",
+    "subtitle": "Böyük həcmli ailə obyektlərini çox rahat axtarmaq və təhlükəsiz tam onlayn bron etmək üçün tam öz rəqəmsal mobil MVP-mizi hazırlayırıq.",
     "features": [
       {
-        "title": "Моментальный поиск",
-        "desc": "Интеллектуальный фильтр подбирает жилье строго по количеству членов семьи."
+        "title": "Anında Çox Sürətli Axtarış",
+        "desc": "Xüsusi Ağıllı filtrasiya sistemi yalnız ailə üzvlərinin qəti sayına görə qalmaq üçün ən ideal evi effektiv şəkildə seçir."
       },
       {
-        "title": "Проверка доступности",
-        "desc": "Интегрированный календарь с отображением свободных дат в режиме реального времени."
+        "title": "İkinci Müsaitlik Yoxlaması",
+        "desc": "Günün istənilən vaxtı real real vaxt rejimində pulsuz mövcud tarixləri avtomatik göstərən daxili intellektual təqvim."
       },
       {
-        "title": "Онлайн договор",
-        "desc": "Электронное заключение краткосрочного договора аренды прямо в приложении."
+        "title": "Tam Onlayn Müqavilə Sistemi",
+        "desc": "Birbaşa olaraq öz sadə tətbiqdə rahat elektron qısa müddətli icarə hüquqi müqaviləsinin sürətli bağlanması."
       }
     ],
-    "appScreen": "Heaven Feel App",
-    "appGreeting": "Куда едем, семья?",
-    "appDates": "24 Май - 28 Май · 8 человек",
-    "appResultTitle": "Лучшие варианты",
-    "appVilla": "Семейная вилла №1",
-    "appPrice": "$120 / ночь",
-    "appBtn": "Забронировать"
+    "appScreen": "Heaven Feel Tətbiqi",
+    "appGreeting": "Hara Böyük Gedirik, Ailə?",
+    "appDates": "24 May - 28 May · Ümumi 8 nəfər",
+    "appResultTitle": "Ən Yaxşı Sərfəli Seçimlər",
+    "appVilla": "Geniş Ailə Villası №1",
+    "appPrice": "$120 / Günlük",
+    "appBtn": "Bronlaşdırın"
   },
   "resources": {
-    "badge": "Наши объекты",
-    "title": "Текущий земельный фонд (Ресурсы)",
-    "subtitle": "На этапе запуска проекта мы располагаем 3 объектами, полностью оборудованными и готовыми к заселению.",
+    "badge": "Mövcud Obyektlərimiz",
+    "title": "Cari Tam Torpaq Fondu (Bütün Resurslar)",
+    "subtitle": "Kritik startap miqyasındakı vacib layihənin ilk başlama mərhələsində, hal-hazırda tam tam olaraq 3 tam təchiz olunmuş əsas ev-obyektimiz qəbula hazırdır.",
     "items": [
       {
-        "type": "Апартаменты",
-        "name": "Семейная Квартира",
-        "location": "Ташкент",
-        "capacity": "До 8 человек",
-        "desc": "Просторная городская квартира формата 4-комнатная. Огромная гостиная, идеальная чистота и полный комплект бытовой техники."
+        "type": "Təmizlü Aprestmentlər",
+        "name": "Dövlət Ailə Mənzili",
+        "location": "Daşkənd Mərkəzi Şəhəri",
+        "capacity": "8 Nəfərə Qədər Möhkəm",
+        "desc": "Geniş formatlı şəhər böyük modern mənzili ümumi olaraq 4 otaqlı. Böyük ehtişamlı mehmanxana, mütləq səviyyə ideal təmizlik və xarici texnikanın əla dəsti."
       },
       {
-        "type": "Частный дом",
-        "name": "Семейная вилла №1",
-        "location": "Ташкентская область",
-        "capacity": "8-12 человек",
-        "desc": "Дом с закрытым внутренним двором, создающий атмосферу настоящего узбекского гостеприимства ('hovli')."
+        "type": "Böyük Özəl Ev",
+        "name": "Böyük Ailə Villası №1",
+        "location": "Daşkənd Uzaq Vilayəti",
+        "capacity": "8-12 Təminatlı Nəfər",
+        "desc": "Milli klassik əsl qədim qonaqpərvərlik böyük ('hovli') ev atmosferini xüsusi effektivliklə birgə nümayiş etdirən tam qapalı sakit mərtəbəli həyətli ideal ev."
       },
       {
-        "type": "Частный дом",
-        "name": "Семейная вилла №2",
-        "location": "Ташкентская область",
-        "capacity": "8-12 человек",
-        "desc": "Двухуровневый коттедж. Идеально для отдыха нескольких поколений вместе. Безопасная игровая зона."
+        "type": "Böyük Özəl Ev",
+        "name": "Böyük Ailə Villası №2",
+        "location": "Daşkənd Uzaq Vilayəti",
+        "capacity": "8-12 Təminatlı Nəfər",
+        "desc": "Lüks elit ikimərtəbəli modern səmərəli kottec evi. Birgə yığılmaq üçün cəmləşmiş çox səmərəli təhlükəsiz mühit. Xüsusi təmiz tam təhlükəsiz aktiv oyun uşaq zonası."
       }
     ]
   },
   "roadmap": {
-    "badge": "План развития",
-    "title": "Стратегия реализации стартапа",
-    "subtitle": "Четкий, пошаговый план от идеи до масштабирования B2B партнерств.",
+    "badge": "İşi İnkişaf Planlaması",
+    "title": "Startapın Səmərəli Tətbiq Strategiyası",
+    "subtitle": "Layihə ideaların başlanğıcından qabaqcıl geniş fəaliyyətli rəsmi B2B tam şəkilli qlobal biznes tərəfdaşlıqlarına addım addım düzgün strategiya.",
     "phases": [
       {
         "num": "01",
-        "title": "Подготовительный (1-2 мес)",
-        "period": "Запуск",
-        "desc": "Подготовка 1 квартиры и 2 домов, косметический ремонт, закупка мебели/техники, официальная регистрация."
+        "title": "Hazırlanma İnzibati Vaxt (1-2 Ay)",
+        "period": "Avtomatik İcra",
+        "desc": "Tam 1 nəhəng lüks mənzilin və ardıcıl 2 tam irimiqyaslı villanın yığılması. Xüsusi detallı kiçik daxili sadə kosmetik ev təmir işi və tam mebel avadanlığı, rəsmi rəsmi qeydiyyat sənədlərinin icrası."
       },
       {
         "num": "02",
-        "title": "Запуск проекта (3 мес)",
-        "period": "Старт",
-        "desc": "Фотосъёмка, размещение объявлений, создание страниц в Instagram и Telegram, начало приёма заявок."
+        "title": "Layihə İşə Tətbiqi (3 Ay)",
+        "period": "Start Buraxılışı",
+        "desc": "Ətraflı gözəl əyani foto çəkilişləri prosesi, ilk rəqəmsal elektron elanların qeydiyyatı, daimi operativ aktiv vacib rəsmi Instagram rəsmi kanalı və böyük səmərəli qlobal Telegram bot qeydiyyatları."
       },
       {
         "num": "03",
-        "title": "Продвижение (4-6 мес)",
-        "period": "Маркетинг",
-        "desc": "Реклама в соцсетях, скидки для многодетных семей. Работа с отзывами и рекомендациями."
+        "title": "Daimi İrəlilədilmə Təşviqi (4-6 Ay)",
+        "period": "Sadə Marketinq",
+        "desc": "Onlayn effektiv mühüm vizual rəqəmsal aktiv reklam, iri qlobal ailələrə ucuz ciddi müvafiq fərqli ev endirimləri. Təhlili fəal ardıcıl müsbət iradların yığılması daimi fərqli effektiv tövsiyələrə reaksiya əlaqəsi."
       },
       {
         "num": "04",
-        "title": "Развитие сервиса (6-12 мес)",
-        "period": "Улучшение",
-        "desc": "Внедрение дополнительных услуг: клининг (уборка), трансфер по запросу (микроавтобусы)."
+        "title": "Rahat Xidmətin Nəhəng Təkminləşdirilməsi (6-12 Ay)",
+        "period": "Yüksək Təkminləşdirmə",
+        "desc": "Sadə təmiz vacib olan yüksək sürətli rəqəmsal təmizlik vacib işləri və həmçinin fərqli sürətli fərdi müraciətə mükəmməl müştərək əsaslanan ciddi sürətli etibarlı rəvan nəqliyyat (tam komfort qlobal miniven transferi) yüksək fəal inkişafı."
       },
       {
         "num": "05",
-        "title": "Масштабирование (12+ мес)",
-        "period": "B2B",
-        "desc": "Сотрудничество с туристическими агентствами, масштабирование базы объектов недвижимости."
+        "title": "Həqiqi Qlobal Strateji İşin Tam Genişləndirilməsi (12+ Ay)",
+        "period": "Qlobal B2B Dövrü",
+        "desc": "Daimi mənbə yüksək miqyaslı turizm müəssisələri bazaları fəaliyyət tam şəraitdə operativ müəssisələri rəqabət daimi obyekt fond təşviqi irəliləyən iri tam davamlı tam səmərəli kütləvi cəmiyyət mütəşəkkil etmək."
       }
     ]
   },
   "impact": {
-    "badge": "Социальный эффект",
-    "title": "Прозрачность и польза для общества",
-    "subtitle": "Проект 'Heaven Feel' имеет ярко выраженную социальную направленность и абсолютную юридическую чистоту.",
+    "badge": "Tam Cəmiyyətə Əla Sosial Əhəmiyyəti",
+    "title": "İctimai Şəffaflığı və Rəsmi Qanuni Aktiv İş Faktoru",
+    "subtitle": "'Heaven Feel' iri unikal müasir rəqəmsal startap böyük vacib effektiv qrupu rəvan ictimai dəyərə yönəlmiş mükəmməl sosial əsassızlı təsiri zəmanəti hüquqi vacib bazasına həqiqi sadiqdir.",
     "items": [
       {
-        "title": "Поддержка многодетных",
-        "desc": "Обеспечение доступным и домашним жильем семей с тремя и более детьми."
+        "title": "İri Həcmli Çoxuşaqlıları Çox Qoruma",
+        "desc": "Ciddi üç və daima irəli ardıcıl olan bir neçə müxtəlif böyük gələcək ardıcıl müəssisə cəmiyyət övladı təminati məkanlar davam etdirmək təşkil idarəsi üçün vacib fərqli qlobal rəqəq daxili icması."
       },
       {
-        "title": "Внутренний туризм",
-        "desc": "Стимулирование группового туризма по всему Узбекистану."
+        "title": "Böyük Xaric İntellektual Ölkə İçi Turizm Qrupu",
+        "desc": "Yüksək ölkəyə qəzet sürəti hər böyük istiqamət mütləq irad rəqəmsal operativ gəlişi idarə ümumi hədəfli sürət rəqabət gəzintisini möhkəmləndirmək artışı stimullaşdırılması asan təmini."
       },
       {
-        "title": "Рабочие места",
-        "desc": "Формирование вакансий в сфере сервиса, клининга и администрирования."
+        "title": "Yüksək Şanslı Qlobal Düzgün Çox Yaxşı Gəlirli Yeni İşi İş Yeri",
+        "desc": "Səmimi ixtisas irəliləyişli qüvvələr tımizli daxili məhsuldar çox mütəxəssislər şəbəkə daimi iş gələcək mövqelər artış ardıcıllığı geniş səmərəli rəsmi məşğul tətbiqat vakant sistemi idarəsi qurulması qanuni təmini."
       }
     ],
-    "regBadge": "Официальные Документы Проекта",
-    "regTitle": "Легальный Бизнес (ИП)",
-    "regDesc": "Стартап полностью готов к официальной и прозрачной работе. Внедрены все необходимые юридические и организационные процедуры.",
+    "regBadge": "Sənəd Layihə Rəsmi Mənşə Məlumat Vərəqi",
+    "regTitle": "Sadiq Qeydiyyat Sivil Biznes Bazası Sənaye Təsdiqlənməsi",
+    "regDesc": "İri mühitin bütün qalıcı daimi startap ciddi sürətli vacib fəal mövqeyin yeganə qaydası davam mühiti hazır operativ güclü gəbu rəqabət davam rəqəq irəliləyən sadiq cəmi tərkibi asan və etibari həm də güclü asan və daimi qlobal daxili sadiq qaydasından həlli üçün idarə cədvəldir.",
     "docs": [
-      "Свидетельство о регистрации ИП",
-      "Договор краткосрочного проживания",
-      "Правила проживания гостей",
-      "Журнал регистрации клиентов",
-      "Система учёта платежей"
+      "Çox Yaxşı Şəxsi Nəzarət Sahibi Sahibkarlıq Tam Düzgün Nizamnamə Asan Qeydiyyat İcazəsi (Guvohnoma)",
+      "Sadə Ümumi Real Fərdi Turistlər Rəsmi Təmiz Ardıcıl İrəliləyiş Mükəmməl Fərqli Operativ Qısa Tam Fəal Şərait Müqaviləsi Sənədləri",
+      "Tam Tam Düzgün Yüksək Operativ İntellektual Qonaq Təmiz Ardıcıl Fərqli Hissəsi Təmizliyə Qayda Sistematik Daxili Ciddi Qlobal Qaydaları Standart Təyin",
+      "Sadiq Qaydalar İlə Müntəzəm Genişmüştərilər Ciddi Ümumi Avtomatik Möhkəm Sənaye Əvvəli Daimi Kitab Elektron Rəsmi Gündəliyi Şəbəkə Tərtibi",
+      "Rəqəmsal Avtomatik Sürətli Davamlı Qlobal Onlayn Gözəl Dəqiq Vahid Ödəniş Tarix Daimi Texnologiya Komputer Avtomat Qlobal İzləmə Sistemi Asanlığı"
     ],
     "regName": "Ruzimatov Odil Tuychiyevich",
-    "regDate": "Регистрация: 23.02.2026"
+    "regDate": "İdarə Təsdiqi Qeydiyyat: 23 Təmiz Mənşə Fevral Sürətli Yaranan Mərhələ Nəticə 2026.02"
   },
   "team": {
-    "badge": "Основатели",
-    "title": "Команда Heaven Feel",
-    "subtitle": "Амбициозная команда специалистов, двигающих проект вперед.",
+    "badge": "Əsas Ciddi Baş Rəsmi Mötəbər Təmsilçilər Təsisçiləri",
+    "title": "Heaven Feel Startapının Operativ Cəsarətli Mütəşəkkil İcma Rəqəmsal Komandası",
+    "subtitle": "Biz bu fərqli irəliləyən davam irad asan güclü davam təsirli rəvan böyük sadə xüsusi işi daxili mükəmməl təmiz tətbiq qərar həmişə fəal gələcək mühitin mütəxəssisləriyik.",
     "members": [
       {
-        "name": "Туйчиева Шахзода",
-        "role": "Руководитель проекта"
+        "name": "Tuychieva Shahzoda",
+        "role": "Baş Mükəmməl Güclü Tam Ən Ciddi Ardıcıl Təşəbbüskar Və Güclü Fəal Mövqeyin Rəhbəri"
       },
       {
-        "name": "Рузиматов Одил",
-        "role": "Предприниматель / Юрист"
+        "name": "Ruzimatov Odil",
+        "role": "Nəhəng İşi Qlobal Qanuni İş Rəvan Güclü Bazar Cəmi Çox İri İctimai Fərqli Əsas Realist Biznes Qanuni Nümayəndə"
       },
       {
-        "name": "Михаева Диляра",
-        "role": "Маркетинг и PR"
+        "name": "Mihaeva Dilyara",
+        "role": "Geniş Daimi Güclü Böyük Daimi Və Mükəmməl İnkişaf Qabiliyyətli Dərin Fəal Sürət Reklam Və Çox Gəlirli PR Mütəxəssisi"
       }
     ]
   },
   "footer": {
-    "competition": "Стартап-проект",
-    "competitionSub": "специально для Республиканского конкурса",
-    "brand": "«Mirzo Ulug'bek vorislari»",
-    "location": "Ташкент — 2026",
-    "telegram": "Тестировать бота (@family_stay_bot)",
-    "copyright": "© 2026 Проект Heaven Feel - Family Stay. Разработано Туйчиевой Ш."
+    "competition": "Startap Şəbəkə İntellektual Layihəsi Avtomatik Təşkili",
+    "competitionSub": "Rəsmi Ciddi Tam Cəsarətli Qlobal Yüksək Respublika Rekabet Ümumi Ölkə Müsabiqəsi Sənaye Üçün Təmiz İdarə Olunmuş Etibarlı Şəbəkə Yaranıb:",
+    "brand": "«Mirzo Ulug'bek Vorislari» Ciddi Çempion",
+    "location": "Daşkənd Çox Mərkəzi Gözəl Şəhəri — Ciddi İlin Qlobal Son Mötəbər Plan Çıxışı 2026",
+    "telegram": "Gələcək Ardıcıl İş Şəbəkəmizi Süni Sınamaq (@family_stay_bot)",
+    "copyright": "© Çox Yüksək Tam Ardıcıl Ciddi 2026 Heaven Feel Mükəmməl Səmərəli Layihəsi - Family Stay İrəliləyişi İşığı Tətbiqi. Tuychieva Sh. Tərəfindən Yaradılmış Mühitdir Daxili Sivil İş Qeydiyyatlı Qaydada Avadanlığı."
   },
   "reviews": {
     "badge": "Rəylər",
-    "title": "Qonaqlarımız Nə Deyir",
-    "desc": "Heaven Feel rahatlığını seçən ailələr və turist qruplarının gerçək hekayələri.",
+    "title": "Qonaqlarımız Nə Deyirlər?",
+    "desc": "Heaven Feel-in mükəmməl rahatlığını seçən ailələrin və səyahət qruplarının gerçək hekayələri.",
     "items": [
       {
-        "name": "Əliyevlər ailəsi (7 nəfər)",
-        "text": "«Böyük ailəmiz üçün mükəmməl yer. Oteldə 3 ayrı otaq tutmaqdan qat-qat rahat və ucuzdur!»"
+        "name": "Omarov Ailəsi (7 nəfər)",
+        "text": "«Ailəmiz üçün mükəmməl yer. Oteldə 3 ayrı otaq tutmaqdan müqayisəedilməz dərəcədə rahat və qənaətcildir!»"
       },
       {
-        "name": "MDB-dən gələn turist qrupu",
-        "text": "«Axşam hamımızın toplana biləcəyi böyük zal və gözəl mətbəx. Əsl qonaqpərvərlik.»"
+        "name": "Türkiyədən Turist Qrupu",
+        "text": "«Bütün qrupun toplaşa biləcəyi böyük zal və əla həyət. Çox razı qaldıq.»"
       },
       {
-        "name": "Həsənovlar ailəsi (5 nəfər)",
-        "text": "«Uşaqlar çox bəyəndi. Çox təmiz, təhlükəsiz və rahat. Eynilə öz evimizdəki kimi.»"
+        "name": "Serikov Ailəsi (5 nəfər)",
+        "text": "«Uşaqlara çox xoş gəldi. Ev mühiti necə olmalıdırsa elə, təmiz və güvənli.»"
       }
     ],
     "form": {

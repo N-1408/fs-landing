@@ -14,13 +14,13 @@ import Image from 'next/image';
 import { ChevronDown } from 'lucide-react';
 
 const LANGS = [
-    { code: 'uz', flag: 'UZ', label: 'O\'zbek' },
-    { code: 'ru', flag: 'RU', label: 'Русский' },
-    { code: 'en', flag: 'EN', label: 'English' },
-    { code: 'kk', flag: 'KK', label: 'Қазақша' },
-    { code: 'ky', flag: 'KY', label: 'Кыргызча' },
-    { code: 'tr', flag: 'TR', label: 'Türkçe' },
-    { code: 'az', flag: 'AZ', label: 'Azərbaycanca' },
+    { code: 'uz', country: 'uz', label: 'O\'zbek' },
+    { code: 'ru', country: 'ru', label: 'Русский' },
+    { code: 'en', country: 'gb', label: 'English' },
+    { code: 'kk', country: 'kz', label: 'Қазақша' },
+    { code: 'ky', country: 'kg', label: 'Кыргызча' },
+    { code: 'tr', country: 'tr', label: 'Türkçe' },
+    { code: 'az', country: 'az', label: 'Azərbaycanca' },
 ] as const;
 
 export default function Navbar() {
@@ -88,7 +88,7 @@ export default function Navbar() {
                         {/* 🌍 Lang Switcher (Desktop) */}
                         <div className="relative group hidden lg:block">
                             <button className="flex items-center gap-2 text-white/80 hover:text-white transition-colors bg-white/5 px-3 py-1.5 rounded-full border border-white/10">
-                                <span className="font-bold text-[10px] tracking-widest bg-white/10 px-1.5 py-0.5 rounded text-[#D4AF37]">{current.flag}</span>
+                                <img src={`https://flagcdn.com/w40/${current.country}.png`} width={20} alt={current.code} className="rounded-sm shadow-sm" />
                                 <span className="uppercase text-xs font-bold tracking-wider">{current.code}</span>
                                 <ChevronDown size={14} className="opacity-50" />
                             </button>
@@ -103,7 +103,7 @@ export default function Navbar() {
                                         className={`flex items-center gap-3 w-full px-4 py-2 text-sm font-medium hover:bg-[#FDFBF7] transition-colors ${locale === lang.code ? 'text-[#D4AF37] bg-[#D4AF37]/5' : ''
                                             }`}
                                     >
-                                        <span className="font-bold text-[10px] tracking-widest bg-[#0A1128]/5 px-1.5 py-0.5 rounded text-[#0A1128]/50">{lang.flag}</span>
+                                        <img src={`https://flagcdn.com/w40/${lang.country}.png`} width={20} alt={lang.code} className="rounded-sm shadow-sm border border-[#0A1128]/10" />
                                         {lang.label}
                                     </Link>
                                 ))}
@@ -116,7 +116,7 @@ export default function Navbar() {
                                 onClick={() => setLangOpen(!langOpen)}
                                 className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 transition-all outline-none cursor-pointer"
                             >
-                                <span className="text-xl leading-none shadow-sm rounded-sm overflow-hidden">{current.flag}</span>
+                                <img src={`https://flagcdn.com/w40/${current.country}.png`} width={22} alt={current.code} className="rounded-[3px] shadow-sm" />
                                 <span className="text-xs font-bold text-white hidden sm:block uppercase tracking-wider">{current.code}</span>
                             </button>
 
@@ -138,7 +138,7 @@ export default function Navbar() {
                                                     : 'text-white hover:bg-white/10'
                                                     }`}
                                             >
-                                                <span className="text-xl shadow-sm rounded-sm">{lang.flag}</span>
+                                                <img src={`https://flagcdn.com/w40/${lang.country}.png`} width={24} alt={lang.code} className="rounded shadow-sm" />
                                                 {lang.label}
                                             </button>
                                         ))}

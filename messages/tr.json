@@ -1,280 +1,280 @@
 {
   "nav": {
-    "overview": "О проекте",
-    "compare": "Анализ рынка",
-    "gallery": "Объекты",
-    "app": "MVP Демо",
-    "roadmap": "Путь развития",
-    "impact": "Влияние",
-    "team": "Команда",
+    "overview": "Proje Hakkında",
+    "compare": "Piyasa Analizi",
+    "gallery": "Evlerimiz",
+    "app": "MVP Demo",
+    "roadmap": "Gelişim Planı",
+    "impact": "Sosyal Etki",
+    "team": "Ekibimiz",
     "logoSub": "Family Stay",
     "reviews": "Yorumlar"
   },
   "hero": {
-    "badge": "Стартап-проект: Конкурс «Mirzo Ulug'bek vorislari»",
-    "title": "Новый стандарт размещения для больших семей в Узбекистане",
-    "subtitle": "Уникальный сервис, созданный с учетом национальных особенностей. Просторные квартиры и дома, адаптированные для туристических групп и семей из 6–12 человек.",
-    "cta": "Посмотреть объекты",
-    "statCapacity": "Вместимость",
+    "badge": "Startup Projesi: 'Mirzo Ulug'bek Vorislari' Yarışması",
+    "title": "Özbekistan'da Kalabalık Aileler İçin Yeni Konaklama Standardı",
+    "subtitle": "Ulusal değerler göz önünde bulundurularak tasarlanmış eşsiz bir hizmet. 6-12 kişilik büyük aileler ve turist grupları için özel olarak uyarlanmış geniş daireler ve villalar.",
+    "cta": "Evlerimizi Keşfedin",
+    "statCapacity": "Kapasite",
     "statCapacityValue": "6-12",
-    "statProperties": "Объекта готовы",
+    "statProperties": "Hazır Tesisler",
     "statPropertiesValue": "3",
-    "statYear": "Год запуска",
+    "statYear": "Lansman Yılı",
     "statYearValue": "2026"
   },
   "problem": {
-    "badge": "Вызов рынка",
-    "title": "С чем сталкиваются большие семьи?",
-    "subtitle": "Многодетные семьи и группы от 6 человек вынуждены переплачивать или разбиваться по разным номерам из-за отсутствия подходящей инфраструктуры.",
+    "badge": "Pazardaki Zorluklar",
+    "title": "Geniş Ailelerin Karşılaştığı Sorunlar Nelerdir?",
+    "subtitle": "6 ve daha fazla kişiden oluşan aileler ile gruplar, uygun altyapı eksikliği nedeniyle ya gereğinden fazla ödeme yapmak ya da ayrı odalara bölünmek zorunda kalıyor.",
     "items": [
       {
-        "title": "Дефицит подходящего жилья",
-        "desc": "Найти один дом или просторную квартиру для 6–12 человек одновременно — сложнейшая задача на рынке Узбекистана."
+        "title": "Uygun Konaklama Eksikliği",
+        "desc": "Özbekistan pazarında 6-12 kişinin aynı anda konaklayabileceği tek bir ev veya geniş bir daire bulmak oldukça zordur."
       },
       {
-        "title": "Дороговизна отелей",
-        "desc": "Традиционные гостиницы слишком дороги: привязка цен к одно- и двухместным номерам бьет по карману больших семей."
+        "title": "Yüksek Otel Fiyatları",
+        "desc": "Geleneksel oteller çok pahalıdır: Tek ve çift kişilik odalara bağlı fiyatlandırmalar, kalabalık ailelerin bütçesini sarsar."
       },
       {
-        "title": "Ограниченный комфорт",
-        "desc": "Отсутствие полноценной кухни и общих просторных залов для совместного времяпровождения всей семьи."
+        "title": "Sınırlı Konfor",
+        "desc": "Tüm ailenin bir arada vakit geçirebileceği ortak geniş salonların ve tam teşekküllü bir mutfağın bulunmaması."
       },
       {
-        "title": "Нет профильных сервисов",
-        "desc": "Существующие сервисы аренды ориентированы на пары или индивидуальных путешественников."
+        "title": "Özel Hizmetlerin Yokluğu",
+        "desc": "Mevcut kiralama hizmetleri çoğunlukla çiftlere veya bireysel gezginlere odaklanmıştır."
       }
     ]
   },
   "solution": {
-    "badge": "Наш подход",
-    "title": "Heaven Feel: Разработано для групп",
-    "subtitle": "Первый стартап в Узбекистане, специализирующийся исключительно на групповом размещении семей и туристов от 6 человек.",
+    "badge": "Bizim Yaklaşımımız",
+    "title": "Heaven Feel: Gruplar ve Aileler İçin Tasarlandı",
+    "subtitle": "Özbekistan'da yalnızca kalabalık ailelerin ve 6 kişi ile üzeri turist gruplarının konaklamasına odaklanan ilk startup girişimi.",
     "items": [
       {
-        "title": "Фокус на многодетные семьи",
-        "desc": "Пространства, специально зонированные для комфортного, безопасного и совместного проживания больших групп."
+        "title": "Çok Çocuklu Ailelere Özel",
+        "desc": "Büyük grupların rahat, güvenli ve bir arada yaşayabilmesi için özel olarak bölünmüş alanlar."
       },
       {
-        "title": "Настоящая домашняя атмосфера",
-        "desc": "Аренда не койко-места, а полноценного дома: с просторной гостиной (мехмонхона) и безопасным двором для детей."
+        "title": "Gerçek Bir Ev Ortamı",
+        "desc": "Sadece bir yatak değil, tam donanımlı bir ev kiralama deneyimi: geniş misafir odası (mehmonxona) ve çocuklar için güvenli bir bahçe."
       },
       {
-        "title": "Экономия до 40% бюджета",
-        "desc": "Аренда одной нашей виллы обходится значительно дешевле, чем бронирование 4-5 отдельных номеров в стандартном отеле."
+        "title": "%40'a Varan Bütçe Tasarrufu",
+        "desc": "Sadece tek bir villamızı kiralamak, standart bir otelde 4-5 ayrı oda rezervasyonu yapmaktan çok daha uygun maliyetlidir."
       },
       {
-        "title": "Легкость бронирования",
-        "desc": "Возможность онлайн-бронирования как для краткосрочной, так и для долгосрочной аренды."
+        "title": "Kolay Rezervasyon",
+        "desc": "Hem kısa hem de uzun dönemli konaklamalar için çevrimiçi rezervasyon kolaylığı."
       },
       {
-        "title": "Абсолютная безопасность",
-        "desc": "Договорная основа. Журнал регистрации клиентов и строгий контроль за чистотой и безопасностью сделок."
+        "title": "Mutlak Güvenlik",
+        "desc": "Sözleşmeli güvence. Müşteri kayıt defteri ve tam hijyen ile güvenlik prosedürlerinin sıkı kontrolü."
       }
     ]
   },
   "compare": {
-    "badge": "Анализ рынка",
-    "title": "Почему Heaven Feel обходит конкурентов?",
-    "subtitle": "Сравнительная характеристика предложений для семьи из 8 человек. Heaven Feel предлагает лучшее соотношение цены, комфорта и уюта.",
+    "badge": "Piyasa Analizi",
+    "title": "Neden Heaven Feel Rakiplerini Geride Bırakıyor?",
+    "subtitle": "8 kişilik bir aile için mevcut tekliflerin karşılaştırmalı analizi. Heaven Feel; fiyat, konfor ve rahatlık açısından en iyisini sunar.",
     "features": [
-      "Размещение в одном помещении",
-      "Наличие кухни",
-      "Место для детских игр",
-      "Цена за ночь (средняя)"
+      "Tek Bir Mekanda Konaklama",
+      "Mutfak Bulunabilirliği",
+      "Çocuk Oyun Alanı",
+      "Gecelik Ücret (Ortalama)"
     ],
     "brand": {
       "name": "Heaven Feel",
       "values": [
-        "Полностью вместе",
-        "Собственная кухня",
-        "Закрытый двор/зона",
-        "Выгодная цена"
+        "Tamamen Bir Arada",
+        "Özel Tam Donanımlı Mutfak",
+        "Kapalı Bahçe/Alan",
+        "Ekonomik Maliyet"
       ]
     },
     "hotel": {
-      "name": "Традиционный отель",
+      "name": "Geleneksel Otel",
       "values": [
-        "Разные номера",
-        "Отсутствует",
-        "Ограничено лобби",
-        "Высокая цена (4x)"
+        "Ayrı Odalar",
+        "Mutfak Yok",
+        "Sadece Lobi Alanı",
+        "Çok Yüksek Fiyat (4x)"
       ]
     },
     "rent": {
-      "name": "Обычная квартира",
+      "name": "Sıradan Daire",
       "values": [
-        "Тесно (макc. 4 чел)",
-        "Маленькая",
-        "Отсутствует",
-        "Средняя цена"
+        "Sıkışık (Maks. 4 kişi)",
+        "Çok Küçük",
+        "Bulunmuyor",
+        "Ortalama Fiyat"
       ]
     }
   },
   "mvp": {
-    "badge": "MVP Демо",
-    "title": "Инновационное приложение бронирования",
-    "subtitle": "Мы разрабатываем собственное мобильное MVP для удобного поиска и безопасного бронирования семейных объектов онлайн.",
+    "badge": "MVP Demo",
+    "title": "Yenilikçi Rezervasyon Uygulaması",
+    "subtitle": "Aile konaklamalarını çevrimiçi olarak güvenli ve kolay bir şekilde bulabilmeniz için kendi mobil MVP uygulamamızı geliştiriyoruz.",
     "features": [
       {
-        "title": "Моментальный поиск",
-        "desc": "Интеллектуальный фильтр подбирает жилье строго по количеству членов семьи."
+        "title": "Anında Arama",
+        "desc": "Akıllı filtreleme sistemi sayesinde, tam olarak aile üyesi sayınıza uygun konaklama seçeneklerini listeler."
       },
       {
-        "title": "Проверка доступности",
-        "desc": "Интегрированный календарь с отображением свободных дат в режиме реального времени."
+        "title": "Uygunluk Kontrolü",
+        "desc": "Müsait tarihleri gerçek zamanlı olarak gösteren entegre akıllı takvim sistemi."
       },
       {
-        "title": "Онлайн договор",
-        "desc": "Электронное заключение краткосрочного договора аренды прямо в приложении."
+        "title": "Çevrimiçi Sözleşme",
+        "desc": "Uygulama üzerinden doğrudan kısa süreli elektronik kira sözleşmesi yapabilme imkanı."
       }
     ],
     "appScreen": "Heaven Feel App",
-    "appGreeting": "Куда едем, семья?",
-    "appDates": "24 Май - 28 Май · 8 человек",
-    "appResultTitle": "Лучшие варианты",
-    "appVilla": "Семейная вилла №1",
-    "appPrice": "$120 / ночь",
-    "appBtn": "Забронировать"
+    "appGreeting": "Nereye gidiyoruz, Aile?",
+    "appDates": "24 Mayıs - 28 Mayıs · 8 Kişi",
+    "appResultTitle": "En İyi Seçenekler",
+    "appVilla": "Aile Villası No:1",
+    "appPrice": "$120 / Gece",
+    "appBtn": "Rezervasyon Yap"
   },
   "resources": {
-    "badge": "Наши объекты",
-    "title": "Текущий земельный фонд (Ресурсы)",
-    "subtitle": "На этапе запуска проекта мы располагаем 3 объектами, полностью оборудованными и готовыми к заселению.",
+    "badge": "Tesislerimiz",
+    "title": "Mevcut Gayrimenkul Fonumuz (Kaynaklar)",
+    "subtitle": "Projenin başlangıç aşamasında, tam donanımlı ve misafirleri ağırlamaya hazır 3 adet bağımsız tesisimiz bulunmaktadır.",
     "items": [
       {
-        "type": "Апартаменты",
-        "name": "Семейная Квартира",
-        "location": "Ташкент",
-        "capacity": "До 8 человек",
-        "desc": "Просторная городская квартира формата 4-комнатная. Огромная гостиная, идеальная чистота и полный комплект бытовой техники."
+        "type": "Apartman Dairesi",
+        "name": "Geniş Aile Dairesi",
+        "location": "Taşkent Şehri",
+        "capacity": "8 Kişiye Kadar",
+        "desc": "4 Odalı geniş şehir dairesi. Büyük bir oturma odası, kusursuz ev temizliği ve tüm ev aletlerini içeren eksiksiz bir set."
       },
       {
-        "type": "Частный дом",
-        "name": "Семейная вилла №1",
-        "location": "Ташкентская область",
-        "capacity": "8-12 человек",
-        "desc": "Дом с закрытым внутренним двором, создающий атмосферу настоящего узбекского гостеприимства ('hovli')."
+        "type": "Müstakil Ev",
+        "name": "Aile Villası No:1",
+        "location": "Taşkent Bölgesi",
+        "capacity": "8-12 Kişi",
+        "desc": "Geleneksel Özbek misafirperverliğinin ('havlu') eşsiz atmosferini hissettiren, etrafı tamamen kapalı özel iç avlulu müstakil ev."
       },
       {
-        "type": "Частный дом",
-        "name": "Семейная вилла №2",
-        "location": "Ташкентская область",
-        "capacity": "8-12 человек",
-        "desc": "Двухуровневый коттедж. Идеально для отдыха нескольких поколений вместе. Безопасная игровая зона."
+        "type": "Müstakil Ev",
+        "name": "Aile Villası No:2",
+        "location": "Taşkent Bölgesi",
+        "capacity": "8-12 Kişi",
+        "desc": "İki katlı lüks geniş yazlık. Birden fazla neslin bir arada harika bir tatil geçirmesi için mükemmeldir. Çocuklar için güvenli açık oyun alanı mevcuttur."
       }
     ]
   },
   "roadmap": {
-    "badge": "План развития",
-    "title": "Стратегия реализации стартапа",
-    "subtitle": "Четкий, пошаговый план от идеи до масштабирования B2B партнерств.",
+    "badge": "Gelişim Planı",
+    "title": "Startup Uygulama Stratejimiz",
+    "subtitle": "Fikirden B2B ortaklıklarının ölçeklendirilmesine kadar uzanan net ve adım adım ilerleyen planımız.",
     "phases": [
       {
         "num": "01",
-        "title": "Подготовительный (1-2 мес)",
-        "period": "Запуск",
-        "desc": "Подготовка 1 квартиры и 2 домов, косметический ремонт, закупка мебели/техники, официальная регистрация."
+        "title": "Hazırlık Süreci (1-2 Ay)",
+        "period": "Başlangıç",
+        "desc": "1 daire ve 2 evin hazırlanması, kozmetik onarımların yapılması, mobilya ve ekipmanların satın alınması ile resmi şirket kayıtlarının tamamlanması."
       },
       {
         "num": "02",
-        "title": "Запуск проекта (3 мес)",
-        "period": "Старт",
-        "desc": "Фотосъёмка, размещение объявлений, создание страниц в Instagram и Telegram, начало приёма заявок."
+        "title": "Proje Lansmanı (3 Ay)",
+        "period": "Lansman",
+        "desc": "Profesyonel fotoğraf çekimi, çevrimiçi yerleştirmeler, resmi Instagram ve Telegram profillerinin oluşturulması ile ilk misafir başvurularının kabulü."
       },
       {
         "num": "03",
-        "title": "Продвижение (4-6 мес)",
-        "period": "Маркетинг",
-        "desc": "Реклама в соцсетях, скидки для многодетных семей. Работа с отзывами и рекомендациями."
+        "title": "Pazarlama ve Satış (4-6 Ay)",
+        "period": "Pazarlama",
+        "desc": "Sosyal ağlarda hedef odaklı reklamcılık faaliyetleri, kalabalık ailelere özel indirimler. Müşteri yorumları ve tavsiyelerine ağırlık verilmesi."
       },
       {
         "num": "04",
-        "title": "Развитие сервиса (6-12 мес)",
-        "period": "Улучшение",
-        "desc": "Внедрение дополнительных услуг: клининг (уборка), трансфер по запросу (микроавтобусы)."
+        "title": "Hizmetin Geliştirilmesi (6-12 Ay)",
+        "period": "Gelişim",
+        "desc": "Temizlik (cleaning) hizmetleri ve talep üzerine VIP transfer (minibüs vs.) gibi ek kaliteli hizmetlerin entegrasyonu."
       },
       {
         "num": "05",
-        "title": "Масштабирование (12+ мес)",
+        "title": "Büyüme ve Ölçeklenme (12+ Ay)",
         "period": "B2B",
-        "desc": "Сотрудничество с туристическими агентствами, масштабирование базы объектов недвижимости."
+        "desc": "Yurtdışı turizm ajanslarıyla partnerlik anlaşmaları ve hizmet sunulan emlak veri tabanının devasa ölçekte genişletilmesi."
       }
     ]
   },
   "impact": {
-    "badge": "Социальный эффект",
-    "title": "Прозрачность и польза для общества",
-    "subtitle": "Проект 'Heaven Feel' имеет ярко выраженную социальную направленность и абсолютную юридическую чистоту.",
+    "badge": "Sosyal Etki",
+    "title": "Toplum İçin Şeffaflık ve Fayda",
+    "subtitle": "'Heaven Feel' projesi, güçlü bir sosyal misyona ve mutlak yasal temizliğe sahip benzersiz bir girişimdir.",
     "items": [
       {
-        "title": "Поддержка многодетных",
-        "desc": "Обеспечение доступным и домашним жильем семей с тремя и более детьми."
+        "title": "Geniş Ailelere Destek",
+        "desc": "Üç ve daha fazla çocuğa sahip ailelerin uygun fiyatlı ve son derece güvenli bir ev ortamına erişiminin sağlanması."
       },
       {
-        "title": "Внутренний туризм",
-        "desc": "Стимулирование группового туризма по всему Узбекистану."
+        "title": "İç Turizme Katkı",
+        "desc": "Özbekistan genelinde iç pazar grup turizminin teşvik edilmesi ve geliştirilmesi."
       },
       {
-        "title": "Рабочие места",
-        "desc": "Формирование вакансий в сфере сервиса, клининга и администрирования."
+        "title": "Yeni İstihdam Alanları",
+        "desc": "Konaklama, temizlik hizmetleri ve mülk yönetimi alanlarında yüzlerce yeni kalifiye iş pozisyonu yaratılması."
       }
     ],
-    "regBadge": "Официальные Документы Проекта",
-    "regTitle": "Легальный Бизнес (ИП)",
-    "regDesc": "Стартап полностью готов к официальной и прозрачной работе. Внедрены все необходимые юридические и организационные процедуры.",
+    "regBadge": "Resmi Proje Evrakları",
+    "regTitle": "Yasal ve Güvenilir İşletme",
+    "regDesc": "Startup projemiz resmi ve son derece şeffaf bir çalışma modeline geçmeye tamamen hazırdır. Gerekli tüm yasal ve kurumsal prosedürler eksiksiz tamamlanmıştır.",
     "docs": [
-      "Свидетельство о регистрации ИП",
-      "Договор краткосрочного проживания",
-      "Правила проживания гостей",
-      "Журнал регистрации клиентов",
-      "Система учёта платежей"
+      "Bireysel Girişimcilik Kayıt Belgesi (Guvohnoma)",
+      "Misafirler İçin Kısa Süreli Kira Sözleşmesi",
+      "Genel Konaklama ve Hijyen Kuralları",
+      "Resmi Müşteri Kayıt ve Raporlama Defteri",
+      "Şeffaf Çevrimiçi Ödeme Takip Sistemi"
     ],
     "regName": "Ruzimatov Odil Tuychiyevich",
-    "regDate": "Регистрация: 23.02.2026"
+    "regDate": "Kayıt Tarihi: 23.02.2026"
   },
   "team": {
-    "badge": "Основатели",
-    "title": "Команда Heaven Feel",
-    "subtitle": "Амбициозная команда специалистов, двигающих проект вперед.",
+    "badge": "Kurucular",
+    "title": "Heaven Feel Ekibi",
+    "subtitle": "Projeyi sürekli ileriye taşıyan hırslı ve uzman kadromuz.",
     "members": [
       {
-        "name": "Туйчиева Шахзода",
-        "role": "Руководитель проекта"
+        "name": "Tuychieva Shahzoda",
+        "role": "Proje Yöneticisi ve Kurucu"
       },
       {
-        "name": "Рузиматов Одил",
-        "role": "Предприниматель / Юрист"
+        "name": "Ruzimatov Odil",
+        "role": "Girişimci / Baş Hukuk Danışmanı"
       },
       {
-        "name": "Михаева Диляра",
-        "role": "Маркетинг и PR"
+        "name": "Mihaeva Dilyara",
+        "role": "Pazarlama ve Halkla İlişkiler (PR)"
       }
     ]
   },
   "footer": {
-    "competition": "Стартап-проект",
-    "competitionSub": "специально для Республиканского конкурса",
-    "brand": "«Mirzo Ulug'bek vorislari»",
-    "location": "Ташкент — 2026",
-    "telegram": "Тестировать бота (@family_stay_bot)",
-    "copyright": "© 2026 Проект Heaven Feel - Family Stay. Разработано Туйчиевой Ш."
+    "competition": "Startup Projesi",
+    "competitionSub": "Cumhuriyet yarışması için özel hazırlık:",
+    "brand": "«Mirzo Ulug'bek Vorislari»",
+    "location": "Taşkent Şehri — 2026",
+    "telegram": "Botumuzu Test Edin (@family_stay_bot)",
+    "copyright": "© 2026 Heaven Feel Projesi - Family Stay. Tuychieva Sh. tarafından geliştirilmiştir."
   },
   "reviews": {
     "badge": "Yorumlar",
-    "title": "Misafirlerimiz Ne Diyor",
-    "desc": "Heaven Feel rahatlığını seçen aileler ve turist gruplarının gerçek hikayeleri.",
+    "title": "Misafirlerimiz Ne Diyor?",
+    "desc": "Heaven Feel'in eşsiz konforunu seçen büyük ailelerin ve turist gruplarının gerçek yaşam hikayeleri.",
     "items": [
       {
-        "name": "Öztürk Ailesi (7 kişi)",
-        "text": "«Büyük ailemiz için mükemmel bir yer. Otelde 3 ayrı oda tutmaktan çok daha rahat ve ucuz!»"
+        "name": "Omarov Ailesi (7 kişi)",
+        "text": "«Kalabalık ailemiz için bulduğumuz en mükemmel yer. Sıradan bir otelde 3 ayrı ve pahalı oda tutmaktan kesinlikle çok daha rahat ve çok daha uygun fiyatlı!»"
       },
       {
-        "name": "Avrupa'dan Turist Grubu",
-        "text": "«Akşam hepimizin toplanabileceği büyük bir salon ve harika bir mutfak. Gerçek misafirperverlik.»"
+        "name": "Türkiye'den Turist Grubu",
+        "text": "«Özellikle her akşam yemeğinden sonra hepimizin rahatça toplanabildiği o büyük salon ve harika dış avlu paha biçilemezdi. Gerçek bir Özbek misafirperverliği hissettik.»"
       },
       {
-        "name": "Yılmaz Ailesi (5 kişi)",
-        "text": "«Çocuklar çok sevdi. Çok temiz, güvenli ve rahat. Tıpkı kendi evimizdeki gibi.»"
+        "name": "Serikov Ailesi (5 kişi)",
+        "text": "«Özellikle çocuklar ortamı çok sevdi. Her yer tertemiz, inanılmaz güvenli ve çok konforluydu. Tam manasıyla kendimizi hep kendi evimizdeymişiz gibi hissettik.»"
       }
     ],
     "form": {
