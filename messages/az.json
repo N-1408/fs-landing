@@ -259,12 +259,12 @@
     "copyright": "© 2026 Проект Heaven Feel - Family Stay. Разработано Туйчиевой Ш."
   },
   "feedback": {
-    "badge": "Обратная связь",
-    "title": "Оставьте свой отзыв",
-    "desc": "Помогите нам стать лучше! Напишите свои пожелания напрямую основателям.",
-    "name": "Ваше имя",
-    "email": "Email (опционально)",
-    "msg": "Ваше сообщение",
-    "btn": "Отправить"
+    "badge": "Rəy",
+    "title": "Rəyinizi bildirin",
+    "desc": "Daha da yaxşılaşmağımıza kömək edin! Təkliflərinizi və ya suallarınızı birbaşa yazın.",
+    "name": "Adınız",
+    "email": "E-poçt (istəyə bağlı)",
+    "msg": "Mesajınız",
+    "btn": "Göndər"
   }
 }

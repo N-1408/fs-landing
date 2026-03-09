@@ -14,8 +14,11 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 const nextConfig: NextConfig = {
   // ✅ React strict mode for better dev experience
   reactStrictMode: true,
-  // 🖼️ Allow external image domains if needed in future
+  // ⚡ Static HTML Export to prevent Render sleeping
+  output: 'export',
+  // 🖼️ Disable Next.js image optimization (required for static export)
   images: {
+    unoptimized: true,
     domains: [],
   },
 };

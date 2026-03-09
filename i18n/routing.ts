@@ -7,9 +7,9 @@
 
 import { defineRouting } from 'next-intl/routing';
 
-// 🌐 Define locale routing — RU is default (no prefix in URL), UZ and EN get /uz/ and /en/ prefixes
+// 🌐 Define locale routing — RU is default (no prefix in URL)
 export const routing = defineRouting({
-    locales: ['ru', 'uz', 'en'],
+    locales: ['ru', 'uz', 'en', 'kk', 'ky', 'tr', 'az'],
     defaultLocale: 'ru',
     localePrefix: 'as-needed', // 🔀 Russian URL has no prefix, others do
 });

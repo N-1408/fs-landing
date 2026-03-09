@@ -15,6 +15,10 @@ const LANGS = [
     { code: 'uz', flag: '🇺🇿', label: 'O\'zbek' },
     { code: 'ru', flag: '🇷🇺', label: 'Русский' },
     { code: 'en', flag: '🇬🇧', label: 'English' },
+    { code: 'kk', flag: '🇰🇿', label: 'Қазақша' },
+    { code: 'ky', flag: '🇰🇬', label: 'Кыргызча' },
+    { code: 'tr', flag: '🇹🇷', label: 'Türkçe' },
+    { code: 'az', flag: '🇦🇿', label: 'Azərbaycanca' },
 ] as const;
 
 export default function Navbar() {
