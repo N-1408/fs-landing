@@ -276,6 +276,15 @@
         "name": "Saidovlar oilasi (5 kishi)",
         "text": "«Bolalarga juda yoqdi. Juda toza, xavfsiz shinam. Huddi o'z uyimizdagidek.»"
       }
-    ]
+    ],
+    "form": {
+      "title": "Izoh qoldirish",
+      "namePlaceholder": "Ismingiz yoki familiyangiz",
+      "textPlaceholder": "Heaven Feel haqida taassurotlaringiz...",
+      "publishing": "Chop etilmoqda...",
+      "published": "Izoh chop etildi!",
+      "publishBtn": "Izohni yuklash",
+      "error": "Xatolik: Ma'lumotlar bazasi ulanmagan!"
+    }
   }
 }

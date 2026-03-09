@@ -276,6 +276,15 @@
         "name": "The Johnsons (5 people)",
         "text": "«The kids loved the space. Very clean, safe, and cozy. Felt just like home.»"
       }
-    ]
+    ],
+    "form": {
+      "title": "Leave a Review",
+      "namePlaceholder": "Your Name or Family Name",
+      "textPlaceholder": "Tell us about your stay at Heaven Feel...",
+      "publishing": "Publishing...",
+      "published": "Review Published!",
+      "publishBtn": "Publish Review",
+      "error": "Error: Database not connected!"
+    }
   }
 }

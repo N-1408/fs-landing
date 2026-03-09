@@ -27,6 +27,7 @@ export default function Reviews() {
     const [text, setText] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
+    const [errorMsg, setErrorMsg] = useState('');
 
     // Reviews State (starts with seed data, then merges Supabase)
     const [reviews, setReviews] = useState<{ name: string, text: string, date: string, isNew?: boolean }[]>(seedItems);
@@ -56,6 +57,7 @@ export default function Reviews() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        setErrorMsg('');
         if (!name.trim() || !text.trim()) return;
 
         setIsSubmitting(true);
@@ -71,6 +73,7 @@ export default function Reviews() {
 
         if (error) {
             console.error("Error submitting review:", error);
+            setErrorMsg(t('form.error'));
             setIsSubmitting(false);
             return;
         }
@@ -140,12 +143,18 @@ export default function Reviews() {
                     className="max-w-2xl mx-auto mb-20"
                 >
                     <div className="glass-panel rounded-3xl p-6 sm:p-8 border border-[#0A1128]/10 relative z-10 overflow-hidden bento-shadow">
-                        <h3 className="text-2xl font-bold text-[#0A1128] font-display mb-6">Leave a Review</h3>
+                        <h3 className="text-2xl font-bold text-[#0A1128] font-display mb-6">{t('form.title')}</h3>
+
+                        {errorMsg && (
+                            <div className="mb-4 p-4 rounded-xl bg-red-50 text-red-600 border border-red-100 font-medium text-sm flex items-start gap-3">
+                                <span className="text-xl">⚠️</span> {errorMsg}
+                            </div>
+                        )}
 
                         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                             <input
                                 type="text"
-                                placeholder="Your Name or Family Name"
+                                placeholder={t('form.namePlaceholder')}
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                                 required
@@ -153,7 +162,7 @@ export default function Reviews() {
                                 className="w-full px-5 py-4 rounded-xl bg-white border border-[#0A1128]/10 text-[#0A1128] focus:outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/20 transition-all placeholder:text-[#0A1128]/30 font-medium"
                             />
                             <textarea
-                                placeholder="Tell us about your stay at Heaven Feel..."
+                                placeholder={t('form.textPlaceholder')}
                                 value={text}
                                 onChange={(e) => setText(e.target.value)}
                                 required
@@ -174,15 +183,15 @@ export default function Reviews() {
                                 <AnimatePresence mode="wait">
                                     {isSubmitting ? (
                                         <motion.div key="loading" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex items-center gap-2">
-                                            <Loader2 size={20} className="animate-spin" /> Publishing...
+                                            <Loader2 size={20} className="animate-spin" /> {t('form.publishing')}
                                         </motion.div>
                                     ) : isSuccess ? (
                                         <motion.div key="success" initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }} className="flex items-center gap-2">
-                                            <CheckCircle2 size={20} /> Review Published!
+                                            <CheckCircle2 size={20} /> {t('form.published')}
                                         </motion.div>
                                     ) : (
                                         <motion.div key="idle" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex items-center gap-2">
-                                            <Send size={18} /> Publish Review
+                                            <Send size={18} /> {t('form.publishBtn')}
                                         </motion.div>
                                     )}
                                 </AnimatePresence>

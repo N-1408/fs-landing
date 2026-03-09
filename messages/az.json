@@ -276,6 +276,15 @@
         "name": "Həsənovlar ailəsi (5 nəfər)",
         "text": "«Uşaqlar çox bəyəndi. Çox təmiz, təhlükəsiz və rahat. Eynilə öz evimizdəki kimi.»"
       }
-    ]
+    ],
+    "form": {
+      "title": "Rəy Bildirin",
+      "namePlaceholder": "Adınız və ya Soyadınız",
+      "textPlaceholder": "Heaven Feel haqqında təəssüratlarınız...",
+      "publishing": "Nəşr olunur...",
+      "published": "Rəy Nəşr Olundu!",
+      "publishBtn": "Rəyi Nəşr Et",
+      "error": "Xəta: Verilənlər bazası qoşulmayıb!"
+    }
   }
 }

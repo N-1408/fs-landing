@@ -276,6 +276,15 @@
         "name": "Yılmaz Ailesi (5 kişi)",
         "text": "«Çocuklar çok sevdi. Çok temiz, güvenli ve rahat. Tıpkı kendi evimizdeki gibi.»"
       }
-    ]
+    ],
+    "form": {
+      "title": "Yorum Bırak",
+      "namePlaceholder": "Adınız veya Soyadınız",
+      "textPlaceholder": "Heaven Feel konaklamanız hakkında...",
+      "publishing": "Yayınlanıyor...",
+      "published": "Yorum Yayınlandı!",
+      "publishBtn": "Yorumu Yayınla",
+      "error": "Hata: Veritabanı bağlı değil!"
+    }
   }
 }
