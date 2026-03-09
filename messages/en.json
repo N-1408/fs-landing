@@ -258,13 +258,23 @@
     "telegram": "Test our Bot (@family_stay_bot)",
     "copyright": "© 2026 Heaven Feel - Family Stay. Developed by Tuychiyeva Sh."
   },
-  "feedback": {
-    "badge": "Feedback",
-    "title": "Leave Your Feedback",
-    "desc": "Help us become better! Write your suggestions or questions directly.",
-    "name": "Your Name",
-    "email": "Email (optional)",
-    "msg": "Your Message",
-    "btn": "Send"
+  "reviews": {
+    "badge": "Reviews",
+    "title": "What Our Guests Say",
+    "desc": "Real stories from families and tourist groups who chose the comfort of Heaven Feel.",
+    "items": [
+      {
+        "name": "The Smiths (7 people)",
+        "text": "«Perfect place for our huge family. Much more convenient and cheaper than booking 3 different hotel rooms!»"
+      },
+      {
+        "name": "Tourist Group from Germany",
+        "text": "«Beautiful kitchen and a highly spacious hall where we could all gather in the evening. True hospitality.»"
+      },
+      {
+        "name": "The Johnsons (5 people)",
+        "text": "«The kids loved the space. Very clean, safe, and cozy. Felt just like home.»"
+      }
+    ]
   }
 }

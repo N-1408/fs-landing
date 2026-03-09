@@ -6,17 +6,28 @@
 # 📅 Created at: 2026-03-07 05:21 (Tashkent Time)
 
 services:
-  # 🚀 Static Web Service definition (Eliminates cold starts)
-  - type: static
+  # 🚀 Web service definition
+  - type: web
     name: heaven-feel
-    env: static
+    env: node
     region: frankfurt  # 🌍 Closest to Uzbekistan
-    
+    plan: free
+
     # 🔨 Build command
     buildCommand: npm install && npm run build
-    
-    # 📂 Directory to publish generated HTML files
-    staticPublishPath: out
+
+    # ▶️ Start command
+    startCommand: npm start
+
+    # 🌐 Environment variables
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
 
     # 🔁 Auto-deploy on push to main branch
     autoDeploy: true
+
+    # 📋 Health check
+    healthCheckPath: /

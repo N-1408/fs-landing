@@ -8,17 +8,19 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter, usePathname } from '@/i18n/navigation';
+import { useRouter, usePathname, Link } from '@/i18n/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
+import { ChevronDown } from 'lucide-react';
 
 const LANGS = [
-    { code: 'uz', flag: '🇺🇿', label: 'O\'zbek' },
-    { code: 'ru', flag: '🇷🇺', label: 'Русский' },
-    { code: 'en', flag: '🇬🇧', label: 'English' },
-    { code: 'kk', flag: '🇰🇿', label: 'Қазақша' },
-    { code: 'ky', flag: '🇰🇬', label: 'Кыргызча' },
-    { code: 'tr', flag: '🇹🇷', label: 'Türkçe' },
-    { code: 'az', flag: '🇦🇿', label: 'Azərbaycanca' },
+    { code: 'uz', flag: 'UZ', label: 'O\'zbek' },
+    { code: 'ru', flag: 'RU', label: 'Русский' },
+    { code: 'en', flag: 'EN', label: 'English' },
+    { code: 'kk', flag: 'KK', label: 'Қазақша' },
+    { code: 'ky', flag: 'KY', label: 'Кыргызча' },
+    { code: 'tr', flag: 'TR', label: 'Türkçe' },
+    { code: 'az', flag: 'AZ', label: 'Azərbaycanca' },
 ] as const;
 
 export default function Navbar() {
@@ -53,9 +55,13 @@ export default function Navbar() {
 
                     {/* ✨ Logo */}
                     <a href="#" className="flex items-center gap-3 no-underline group outline-none">
-                        <div className="w-10 h-10 rounded-xl flex items-center justify-center text-[#0A1128] font-black text-xl bg-[#D4AF37] shadow-lg group-hover:bg-[#C84B31] group-hover:text-white transition-colors duration-300">
-                            H
-                        </div>
+                        <Image
+                            src="/img/logo.png"
+                            alt="Heaven Feel Logo"
+                            width={40}
+                            height={40}
+                            className="rounded-xl shadow-lg group-hover:opacity-80 transition-opacity duration-300"
+                        />
                         <div className="leading-tight">
                             <div className="font-display font-bold text-lg text-[#FDFBF7] tracking-wide">
                                 Heaven Feel
@@ -82,8 +88,33 @@ export default function Navbar() {
 
                     {/* 🔧 Actions */}
                     <div className="flex items-center gap-4">
-                        {/* 🌍 Lang Switcher */}
-                        <div className="relative">
+                        {/* 🌍 Lang Switcher (Desktop) */}
+                        <div className="relative group hidden lg:block">
+                            <button className="flex items-center gap-2 text-white/80 hover:text-white transition-colors bg-white/5 px-3 py-1.5 rounded-full border border-white/10">
+                                <span className="font-bold text-[10px] tracking-widest bg-white/10 px-1.5 py-0.5 rounded text-[#D4AF37]">{current.flag}</span>
+                                <span className="uppercase text-xs font-bold tracking-wider">{current.code}</span>
+                                <ChevronDown size={14} className="opacity-50" />
+                            </button>
+
+                            {/* Dropdown Menu */}
+                            <div className="absolute right-0 top-full mt-2 w-40 bg-white rounded-xl shadow-2xl border border-[#0A1128]/10 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all text-[#0A1128] z-50">
+                                {LANGS.map((lang) => (
+                                    <Link
+                                        key={lang.code}
+                                        href={pathname}
+                                        locale={lang.code}
+                                        className={`flex items-center gap-3 w-full px-4 py-2 text-sm font-medium hover:bg-[#FDFBF7] transition-colors ${locale === lang.code ? 'text-[#D4AF37] bg-[#D4AF37]/5' : ''
+                                            }`}
+                                    >
+                                        <span className="font-bold text-[10px] tracking-widest bg-[#0A1128]/5 px-1.5 py-0.5 rounded text-[#0A1128]/50">{lang.flag}</span>
+                                        {lang.label}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* 🌍 Lang Switcher (Mobile - original implementation, still using state) */}
+                        <div className="relative lg:hidden">
                             <button
                                 onClick={() => setLangOpen(!langOpen)}
                                 className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 transition-all outline-none cursor-pointer"

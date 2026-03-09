@@ -258,13 +258,23 @@
     "telegram": "Botni sinab ko'rsih (@family_stay_bot)",
     "copyright": "© 2026 Heaven Feel - Family Stay Loyihasi. Tuychiyeva Sh. tomonidan ishlab chiqilgan"
   },
-  "feedback": {
-    "badge": "Fikr-mulohaza",
-    "title": "Fikringizni qoldiring",
-    "desc": "Bizga yanada yaxshiroq bo'lishimizga yordam bering! O'z taklif yoki savollaringizni yozing.",
-    "name": "Ismingiz",
-    "email": "Email (majburiy emas)",
-    "msg": "Xabaringiz",
-    "btn": "Yuborish"
+  "reviews": {
+    "badge": "Fikrlar",
+    "title": "Mehmonlarimiz nima deydi",
+    "desc": "Heaven Feel qulayligini tanlagan oilalar va turistlarning haqiqiy hikoyalari.",
+    "items": [
+      {
+        "name": "Olimovlar oilasi (7 kishi)",
+        "text": "«Katta oilamiz uchun ajoyib joy. Mehmonxonadan 3 ta alohida xona olgandan ko'ra ancha qulay va arzon!»"
+      },
+      {
+        "name": "Qozog'istonlik turistlar guruhi",
+        "text": "«Kechqurun hammamiz yig'ilishimiz uchun katta zal va ajoyib oshxona. Haqiqiy o'zbek mehmondo'stligi.»"
+      },
+      {
+        "name": "Saidovlar oilasi (5 kishi)",
+        "text": "«Bolalarga juda yoqdi. Juda toza, xavfsiz shinam. Huddi o'z uyimizdagidek.»"
+      }
+    ]
   }
 }

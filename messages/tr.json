@@ -258,13 +258,23 @@
     "telegram": "Тестировать бота (@family_stay_bot)",
     "copyright": "© 2026 Проект Heaven Feel - Family Stay. Разработано Туйчиевой Ш."
   },
-  "feedback": {
-    "badge": "Geri Bildirim",
-    "title": "Geri Bildirim Bırakın",
-    "desc": "Gelişmemize yardımcı olun! Önerilerinizi veya sorularınızı doğrudan yazın.",
-    "name": "Adınız",
-    "email": "E-posta (isteğe bağlı)",
-    "msg": "Mesajınız",
-    "btn": "Gönder"
+  "reviews": {
+    "badge": "Yorumlar",
+    "title": "Misafirlerimiz Ne Diyor",
+    "desc": "Heaven Feel rahatlığını seçen aileler ve turist gruplarının gerçek hikayeleri.",
+    "items": [
+      {
+        "name": "Öztürk Ailesi (7 kişi)",
+        "text": "«Büyük ailemiz için mükemmel bir yer. Otelde 3 ayrı oda tutmaktan çok daha rahat ve ucuz!»"
+      },
+      {
+        "name": "Avrupa'dan Turist Grubu",
+        "text": "«Akşam hepimizin toplanabileceği büyük bir salon ve harika bir mutfak. Gerçek misafirperverlik.»"
+      },
+      {
+        "name": "Yılmaz Ailesi (5 kişi)",
+        "text": "«Çocuklar çok sevdi. Çok temiz, güvenli ve rahat. Tıpkı kendi evimizdeki gibi.»"
+      }
+    ]
   }
 }

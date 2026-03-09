@@ -9,6 +9,8 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 
+import Image from 'next/image';
+
 export default function Footer() {
     const t = useTranslations('footer');
 
@@ -26,9 +28,13 @@ export default function Footer() {
                     viewport={{ once: true }}
                     className="flex flex-col items-center justify-center text-center max-w-2xl mb-16"
                 >
-                    <div className="w-16 h-16 rounded-2xl bg-[#D4AF37] flex items-center justify-center text-[#0A1128] font-black text-3xl shadow-xl shadow-[#D4AF37]/20 mb-6">
-                        H
-                    </div>
+                    <Image
+                        src="/img/logo.png"
+                        alt="Heaven Feel"
+                        width={72}
+                        height={72}
+                        className="rounded-2xl shadow-xl shadow-[#D4AF37]/20 mb-6 drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
+                    />
 
                     <h2 className="font-display text-2xl sm:text-3xl font-bold text-gradient-gold mb-3">
                         {t('competition')}
