@@ -17,9 +17,9 @@ export default function Reviews() {
 
     // We explicitly map an array from the localization files for the "seed" data
     const seedItems = [
-        { name: t('items.0.name'), text: t('items.0.text'), date: '2025-10-15' },
-        { name: t('items.1.name'), text: t('items.1.text'), date: '2025-11-20' },
-        { name: t('items.2.name'), text: t('items.2.text'), date: '2026-01-05' },
+        { name: t('items.0.name'), text: t('items.0.text'), date: '2026-02-15' },
+        { name: t('items.1.name'), text: t('items.1.text'), date: '2026-03-01' },
+        { name: t('items.2.name'), text: t('items.2.text'), date: '2026-03-05' },
     ];
 
     // Form states
