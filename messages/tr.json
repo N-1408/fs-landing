@@ -11,9 +11,9 @@
     "reviews": "Yorumlar"
   },
   "hero": {
-    "badge": "Startup Projesi: 'Mirzo Ulug'bek Vorislari' Yarışması",
-    "title": "Özbekistan'da Kalabalık Aileler İçin Yeni Konaklama Standardı",
-    "subtitle": "Ulusal değerler göz önünde bulundurularak tasarlanmış eşsiz bir hizmet. 6-12 kişilik büyük aileler ve turist grupları için özel olarak uyarlanmış geniş daireler ve villalar.",
+    "badge": "Startup Projesi: 'IT Queens - Kelajakni yaratuvchi qizlar' Yarışması",
+    "title": "Üniversite misafirleri ve büyük aileler için yeni konaklama standardı",
+    "subtitle": "Üniversite misafirleri, turist grupları ve 6-12 kişilik aileler için uyarlanmış konforlu daireler ve evler.",
     "cta": "Evlerimizi Keşfedin",
     "statCapacity": "Kapasite",
     "statCapacityValue": "6-12",
@@ -25,7 +25,7 @@
   "problem": {
     "badge": "Pazardaki Zorluklar",
     "title": "Geniş Ailelerin Karşılaştığı Sorunlar Nelerdir?",
-    "subtitle": "6 ve daha fazla kişiden oluşan aileler ile gruplar, uygun altyapı eksikliği nedeniyle ya gereğinden fazla ödeme yapmak ya da ayrı odalara bölünmek zorunda kalıyor.",
+    "subtitle": "Üniversite misafirleri, büyük aileler ve gruplar, uygun altyapı eksikliği nedeniyle zorluk çekmektedir.",
     "items": [
       {
         "title": "Uygun Konaklama Eksikliği",
@@ -51,8 +51,8 @@
     "subtitle": "Özbekistan'da yalnızca kalabalık ailelerin ve 6 kişi ile üzeri turist gruplarının konaklamasına odaklanan ilk startup girişimi.",
     "items": [
       {
-        "title": "Çok Çocuklu Ailelere Özel",
-        "desc": "Büyük grupların rahat, güvenli ve bir arada yaşayabilmesi için özel olarak bölünmüş alanlar."
+        "title": "Misafirlere ve ailelere odaklanma",
+        "desc": "Üniversite misafirleri, turistler ve etkinlikler için konforlu, güvenli ve yenilikçi yaşam alanları."
       },
       {
         "title": "Gerçek Bir Ev Ortamı",
@@ -112,8 +112,8 @@
   },
   "mvp": {
     "badge": "MVP Demo",
-    "title": "Yenilikçi Rezervasyon Uygulaması",
-    "subtitle": "Aile konaklamalarını çevrimiçi olarak güvenli ve kolay bir şekilde bulabilmeniz için kendi mobil MVP uygulamamızı geliştiriyoruz.",
+    "title": "Yenilikçi dijital rezervasyon platformu",
+    "subtitle": "Etkinlikler, misafirler ve aileler için tam otomatik bir mobil MVP rezervasyon uygulaması geliştiriyoruz.",
     "features": [
       {
         "title": "Anında Arama",
@@ -254,7 +254,7 @@
   "footer": {
     "competition": "Startup Projesi",
     "competitionSub": "Cumhuriyet yarışması için özel hazırlık:",
-    "brand": "«Mirzo Ulug'bek Vorislari»",
+    "brand": "«IT Queens - Kelajakni yaratuvchi qizlar»",
     "location": "Taşkent Şehri — 2026",
     "telegram": "Botumuzu Test Edin (@family_stay_bot)",
     "copyright": "© 2026 Heaven Feel Projesi - Family Stay. Tuychieva Sh. tarafından geliştirilmiştir."

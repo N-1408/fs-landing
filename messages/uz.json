@@ -11,9 +11,9 @@
     "reviews": "Fikrlar"
   },
   "hero": {
-    "badge": "«Mirzo Ulug'bek vorislari» tanlovi uchun Startap Loyiha",
-    "title": "O'zbekistonda katta oilalar uchun yangi turar-joy standarti",
-    "subtitle": "Milliy xususiyatlarni inobatga olgan holda yaratilgan noyob xizmat. Turistik guruhlar va 6-12 kishilik oilalar uchun moslashtirilgan keng kvartiralar va hovlilar.",
+    "badge": "«IT Queens - Kelajakni yaratuvchi qizlar» tanlovi uchun Startap Loyiha",
+    "title": "Universitet mehmonlari va katta oilalar uchun yangi turar-joy standarti",
+    "subtitle": "Oliy ta'lim muassasalari mehmonlari, turistik guruhlar va 6-12 kishilik oilalar uchun moslashtirilgan qulay kvartiralar va hovlilar.",
     "cta": "Obyektlarni ko'rish",
     "statCapacity": "Sig'imi",
     "statCapacityValue": "6-12",
@@ -25,7 +25,7 @@
   "problem": {
     "badge": "Bozordagi muammo",
     "title": "Katta oilalar qanday qiyinchiliklarga duch kelishadi?",
-    "subtitle": "Ko'p bolali oilalar va 6 kishidan ortiq guruhlar mos infratuzilma yo'qligi sababli ortiqcha pul to'lashga yoki alohida xonalarga bo'linishga majbur.",
+    "subtitle": "Universitet mehmonlari, ko'p bolali oilalar va guruhlar arzon hamda mos infratuzilma yo'qligi sababli qiynalishadi.",
     "items": [
       {
         "title": "Mos turar-joy taqchilligi",
@@ -51,8 +51,8 @@
     "subtitle": "O'zbekistonda faqat turistik guruhlar va oilalarni (6 kishidan boshlab) birgalikda joylashtirishga ixtisoslashgan birinchi startap.",
     "items": [
       {
-        "title": "Ko'p bolali oilalarga e'tibor",
-        "desc": "Katta guruhlarning qulay, xavfsiz va birgalikda yashashi uchun maxsus hududlarga ajratilgan makonlar."
+        "title": "Mehmonlar va oilalarga e'tibor",
+        "desc": "Universitet mehmonlari, turistlar va qizlar tadbirlari uchun qulay, xavfsiz hamda innovatsion yashash makonlari."
       },
       {
         "title": "Haqiqiy uy muhiti",
@@ -112,8 +112,8 @@
   },
   "mvp": {
     "badge": "MVP Demo",
-    "title": "Innovatsion band qilish ilovasi",
-    "subtitle": "Biz oilaviy obyektlarni onlayn tarzda qulay qidirish va xavfsiz band qilish uchun shaxsiy mobil MVP ilovamizni ishlab chiqyapmiz.",
+    "title": "Innovatsion raqamli band qilish platformasi",
+    "subtitle": "Biz tadbirlar, mehmonlar va oilalar uchun qulay, xavfsiz va to'liq avtomatlashtirilgan mobil MVP ilovamizni ishlab chiqyapmiz.",
     "features": [
       {
         "title": "Tezkor qidiruv",
@@ -254,7 +254,7 @@
   "footer": {
     "competition": "Startap Loyiha",
     "competitionSub": "Respublika tanlovi uchun mahsus",
-    "brand": "«Mirzo Ulug'bek vorislari»",
+    "brand": "«IT Queens - Kelajakni yaratuvchi qizlar»",
     "location": "Toshkent — 2026",
     "telegram": "Botni sinab ko'rsih (@family_stay_bot)",
     "copyright": "© 2026 Heaven Feel - Family Stay Loyihasi. Tuychiyeva Sh. tomonidan ishlab chiqilgan"

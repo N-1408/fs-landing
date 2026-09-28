@@ -11,9 +11,9 @@
     "reviews": "Rəylər"
   },
   "hero": {
-    "badge": "Startap Layihəsi: 'Mirzo Ulug'bek Vorislari' Müsabiqəsi",
-    "title": "Özbəkistanda Böyük Ailələr Üçün Yeni Yerləşdirmə Standartı",
-    "subtitle": "Milli xüsusiyyətlər nəzərə alınmaqla yaradılmış unikal bir xidmət. 6-12 nəfərlik böyük turist qrupları və ailələr üçün xüsusi olaraq uyğunlaşdırılmış geniş mənzil və villalar.",
+    "badge": "Startap Layihəsi: 'IT Queens - Kelajakni yaratuvchi qizlar' Müsabiqəsi",
+    "title": "Universitet qonaqları və böyük ailələr üçün yeni yerləşdirmə standartı",
+    "subtitle": "Universitet qonaqları, turist qrupları və 6-12 nəfərlik ailələr üçün uyğunlaşdırılmış rahat mənzillər və evlər.",
     "cta": "Obyektlərimizi Kəşf Edin",
     "statCapacity": "Tutum",
     "statCapacityValue": "6-12",
@@ -25,7 +25,7 @@
   "problem": {
     "badge": "Bazarın Problemləri",
     "title": "Böyük Ailələr Hansı Çətinliklərlə Üzləşirlər?",
-    "subtitle": "6 və daha çox nəfərdən ibarət çoxuşaqlı ailələr və turist qrupları, uyğun infrastrukturun olmaması səbəbindən ya əlavə ödəniş etməyə, ya da ayrı-ayrı otaqlara bölünməyə məcbur qılırlar.",
+    "subtitle": "Universitet qonaqları, böyük ailələr və qruplar uyğun infrastrukturun olmaması səbəbindən çətinlik çəkirlər.",
     "items": [
       {
         "title": "Uyğun Mənzil Çatışmazlığı",
@@ -51,8 +51,8 @@
     "subtitle": "Özbəkistanda 6 nəfər və ondan yuxarı olan ailələrin, həmçinin turist qruplarının qrup şəklində yerləşdirilməsi üzrə ixtisaslaşan ilk startap.",
     "items": [
       {
-        "title": "Böyük Ailələrə Fokuslanma",
-        "desc": "Büyük qrupların daha rahat, tam təhlükəsiz və birlikdə yaşaması üçün xüsusi zonalaşdırılmış kəşfiyyat məkanları."
+        "title": "Qonaqlara və ailələrə diqqət",
+        "desc": "Universitet qonaqları, turistlər və tədbirlər üçün rahat, təhlükəsiz və innovativ yaşayış yerləri."
       },
       {
         "title": "Əsl Ev Atmosferi",
@@ -112,8 +112,8 @@
   },
   "mvp": {
     "badge": "MVP Demo Sistemi",
-    "title": "Yenilikçi Onlayn Bronlaşdırma Tətbiqi",
-    "subtitle": "Böyük həcmli ailə obyektlərini çox rahat axtarmaq və təhlükəsiz tam onlayn bron etmək üçün tam öz rəqəmsal mobil MVP-mizi hazırlayırıq.",
+    "title": "İnnovativ rəqəmsal bron platforması",
+    "subtitle": "Tədbirlər, qonaqlar və ailələr üçün tam avtomatlaşdırılmış mobil MVP tətbiqi hazırlayırıq.",
     "features": [
       {
         "title": "Anında Çox Sürətli Axtarış",
@@ -254,7 +254,7 @@
   "footer": {
     "competition": "Startap Şəbəkə İntellektual Layihəsi Avtomatik Təşkili",
     "competitionSub": "Rəsmi Ciddi Tam Cəsarətli Qlobal Yüksək Respublika Rekabet Ümumi Ölkə Müsabiqəsi Sənaye Üçün Təmiz İdarə Olunmuş Etibarlı Şəbəkə Yaranıb:",
-    "brand": "«Mirzo Ulug'bek Vorislari» Ciddi Çempion",
+    "brand": "«IT Queens - Kelajakni yaratuvchi qizlar»",
     "location": "Daşkənd Çox Mərkəzi Gözəl Şəhəri — Ciddi İlin Qlobal Son Mötəbər Plan Çıxışı 2026",
     "telegram": "Gələcək Ardıcıl İş Şəbəkəmizi Süni Sınamaq (@family_stay_bot)",
     "copyright": "© Çox Yüksək Tam Ardıcıl Ciddi 2026 Heaven Feel Mükəmməl Səmərəli Layihəsi - Family Stay İrəliləyişi İşığı Tətbiqi. Tuychieva Sh. Tərəfindən Yaradılmış Mühitdir Daxili Sivil İş Qeydiyyatlı Qaydada Avadanlığı."

@@ -1,8 +1,11 @@
 // 📄 File: components/Footer.tsx — Deep Grand Finale (2.0)
 // 👤 Created by: User with AI
 // 📝 Description: Explicitly states this is a "Startup Project submitted for 
-//     Mirzo Ulug'bek vorislari". Uses deep navy and gold aesthetic.
+//     IT Queens – Kelajakni yaratuvchi qizlar". Uses deep navy and gold aesthetic.
 // 📅 Created at: 2026-03-07 07:13 (Tashkent Time)
+//
+// --- Change Log ---
+// 🔄 2026-09-29 01:15 (Tashkent Time): Rebranded the startup project to target "IT Queens – Kelajakni yaratuvchi qizlar" competition instead of "Mirzo Ulug'bek vorislari".
 
 'use client';
 

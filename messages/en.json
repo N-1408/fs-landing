@@ -11,9 +11,9 @@
     "reviews": "Reviews"
   },
   "hero": {
-    "badge": "Startup Project: 'Mirzo Ulug'bek vorislari' Competition",
-    "title": "A New Accommodation Standard for Large Families in Uzbekistan",
-    "subtitle": "A unique service built with national characteristics in mind. Spacious apartments and houses adapted for tourist groups and families of 6–12 people.",
+    "badge": "Startup Project: 'IT Queens - Kelajakni yaratuvchi qizlar' Competition",
+    "title": "New accommodation standard for university guests and large families",
+    "subtitle": "Comfortable apartments and houses adapted for university guests, tourist groups, and families of 6-12 people.",
     "cta": "View Properties",
     "statCapacity": "Capacity",
     "statCapacityValue": "6-12",
@@ -25,7 +25,7 @@
   "problem": {
     "badge": "Market Challenge",
     "title": "What challenges do large families face?",
-    "subtitle": "Large families and groups of 6+ people are forced to overpay or split into separate rooms due to the lack of suitable infrastructure.",
+    "subtitle": "University guests, large families, and groups struggle due to the lack of affordable and suitable infrastructure.",
     "items": [
       {
         "title": "Shortage of Suitable Housing",
@@ -51,8 +51,8 @@
     "subtitle": "The first startup in Uzbekistan specializing exclusively in accommodating families and tourist groups of 6 or more.",
     "items": [
       {
-        "title": "Focus on Large Families",
-        "desc": "Spaces explicitly zoned for the comfortable, safe, and joint accommodation of large groups."
+        "title": "Focus on guests and families",
+        "desc": "Comfortable, safe, and innovative living spaces for university guests, tourists, and girls' events."
       },
       {
         "title": "True Home Atmosphere",
@@ -112,8 +112,8 @@
   },
   "mvp": {
     "badge": "MVP Demo",
-    "title": "Innovative Booking App",
-    "subtitle": "We are developing our proprietary mobile MVP for convenient search and secure online booking of family properties.",
+    "title": "Innovative digital booking platform",
+    "subtitle": "We are developing a fully automated mobile MVP app for events, guests, and families to safely and easily book accommodations.",
     "features": [
       {
         "title": "Instant Search",
@@ -254,7 +254,7 @@
   "footer": {
     "competition": "Startup Submission",
     "competitionSub": "Created specifically for the Republican Competition",
-    "brand": "'Mirzo Ulug'bek vorislari'",
+    "brand": "«IT Queens - Kelajakni yaratuvchi qizlar»",
     "location": "Tashkent — 2026",
     "telegram": "Test our Bot (@family_stay_bot)",
     "copyright": "© 2026 Heaven Feel - Family Stay. Developed by Tuychiyeva Sh."

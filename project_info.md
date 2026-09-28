@@ -1,7 +1,7 @@
 # Heaven Feel - Family Stay: Loyiha hujjati (Pitch Deck Data)
 
 ## 1. Umumiy tavsif
-[cite_start]"Heaven Feel - Family Stay" — O'zbekistonda ko'p bolali oilalar va 6-12 kishilik sayyohlar guruhlari uchun maxsus moslashtirilgan turar-joy tizimi[cite: 2, 3, 4]. [cite_start]Loyiha "Mirzo Ulug'bek vorislari" respublika tanlovi uchun taqdim etilgan[cite: 1, 5].
+[cite_start]"Heaven Feel - Family Stay" — Universitet mehmonlari va katta oilali turistlar uchun maxsus moslashtirilgan turar-joy tizimi[cite: 2, 3, 4]. [cite_start]Loyiha "IT Queens – Kelajakni yaratuvchi qizlar" respublika tanlovi uchun taqdim etilgan[cite: 1, 5].
 
 ## 2. Muammo va Yechim
 * [cite_start]**Muammo:** O'zbekistonda katta oilalar uchun qulay uy topish qiyin, mehmonxonalar qimmat, guruhlar turli xonalarga bo'linib ketishga majbur[cite: 6, 7, 8].
